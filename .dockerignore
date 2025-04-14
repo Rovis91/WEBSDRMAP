@@ -1,0 +1,54 @@
+# Version control
+.git
+.gitignore
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+
+# Logs
+logs/*
+*.log
+
+# Exports directory (will be mounted as volume)
+exports/*
+
+# Documentation
+docs/*.png
+docs/*.jpg
+docs/*.gif
+docs/*.mp4
+
+# Data that might be stored locally during development
+.data/
+/data/
+
+# Docker-specific files
+Dockerfile
+docker-compose.yml
+.dockerignore 

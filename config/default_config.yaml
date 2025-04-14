@@ -1,0 +1,84 @@
+# Configuration par défaut pour l'outil de triangulation SDR
+
+# Configuration générale
+app:
+  name: "SDR Triangulation Tool"
+  version: "0.1.0"
+  debug: true
+  log_level: "INFO"
+  log_file: "logs/app.log"
+
+# Configuration du serveur web
+server:
+  host: "127.0.0.1"
+  port: 5000
+  secret_key: "dev_secret_key_change_in_production"
+
+# Configuration des KiwiSDR
+sdr:
+  connection_timeout: 30
+  reconnect_attempts: 3
+  reconnect_delay: 5
+  max_connections: 5
+  receivers:
+    - name: "F4EPP Guipry-Messac, France"
+      url: "wss://21924.proxy.kiwisdr.com:8073/kiwi"
+      location:
+        latitude: 47.820936137939434
+        longitude: -1.8126642753071707
+
+    - name: "PA4HJH, Netherlands"
+      url: "wss://pa4hjh.ddns.net:8073/kiwi"
+      location:
+        latitude: 52.845361
+        longitude: 5.699361
+
+    - name: "IW2KPL, Bergamo, Italy"
+      url: "wss://www.dxcluster.world:8073/kiwi"
+      location:
+        latitude: 45.690000
+        longitude: 9.660000
+
+    - name: "Siekierki Wielkie, Poland"
+      url: "wss://s.kalinowski.edu.pl:8073/kiwi"
+      location:
+        latitude: 52.380000
+        longitude: 17.150000
+
+    - name: "DL0HGN/DQ1V, Hagenow, Germany"
+      url: "wss://kiwisdr.dl0hgn.ipv64.net:80/kiwi"
+      location:
+        latitude: 53.402194
+        longitude: 11.218722
+
+# Configuration du traitement du signal
+signal_processing:
+  fft_size: 1024
+  sample_rate: 12000
+  rssi_threshold: -85
+  detection_sensitivity: 0.75
+  calibration_factor: 1.0
+  waterfall:
+    colormap: "viridis"
+    min_level: -120
+    max_level: -20
+
+# Configuration RSSI
+rssi:
+  method: "peak"
+  window_size: 10
+  smoothing_factor: 0.3
+
+# Configuration de la triangulation
+triangulation:
+  min_receivers: 2
+  confidence_margin: 0.85
+  propagation_model: "free_space"
+  update_interval: 5
+
+# Configuration de l'exportation des données
+export:
+  audio_format: "wav"
+  data_format: "json"
+  export_path: "exports/"
+  max_recording_time: 300

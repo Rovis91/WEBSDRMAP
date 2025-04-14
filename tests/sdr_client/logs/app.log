@@ -1,0 +1,168 @@
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité HIGH
+2025-04-14 15:15:25 - WARNING - src.sdr_client.sdr_client - Le récepteur Test KiwiSDR existe déjà
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Suppression du récepteur Test KiwiSDR
+2025-04-14 15:15:25 - WARNING - src.sdr_client.sdr_client - Impossible de supprimer: le récepteur NonExistentSDR n'existe pas
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR réussie
+2025-04-14 15:15:25 - ERROR - src.sdr_client.sdr_client - Le récepteur NonExistentSDR n'existe pas
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR
+2025-04-14 15:15:25 - ERROR - src.sdr_client.sdr_client - Échec de la connexion à Test KiwiSDR
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR réussie
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur Test KiwiSDR
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur Test KiwiSDR réussie
+2025-04-14 15:15:25 - ERROR - src.sdr_client.sdr_client - Le récepteur NonExistentSDR n'existe pas
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion automatique au récepteur Test KiwiSDR pour le flux audio
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR réussie
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion automatique au récepteur Test KiwiSDR pour le flux waterfall
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR réussie
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR1 avec priorité NORMAL
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR2 avec priorité NORMAL
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1 réussie
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Démarrage du client SDR
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Arrêt du client SDR
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur KiwiSDR1
+2025-04-14 15:15:25 - WARNING - src.sdr_client.audio_stream - Le récepteur KiwiSDR1 n'est pas dans la liste des flux
+2025-04-14 15:15:25 - WARNING - root - Tentative de suppression d'un flux waterfall inexistant: KiwiSDR1
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur KiwiSDR1 réussie
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR1 avec priorité HIGH
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR2 avec priorité LOW
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1 réussie
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Modification de la priorité de Test KiwiSDR: NORMAL -> CRITICAL
+2025-04-14 15:15:25 - ERROR - src.sdr_client.sdr_client - Le récepteur NonExistentSDR n'existe pas
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR1 avec priorité LOW
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR2 avec priorité NORMAL
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR3 avec priorité HIGH
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1 réussie
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR2
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR2 réussie
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Déconnexion de KiwiSDR1 pour libérer des ressources pour KiwiSDR3
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur KiwiSDR1
+2025-04-14 15:15:25 - WARNING - src.sdr_client.audio_stream - Le récepteur KiwiSDR1 n'est pas dans la liste des flux
+2025-04-14 15:15:25 - WARNING - root - Tentative de suppression d'un flux waterfall inexistant: KiwiSDR1
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur KiwiSDR1 réussie
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR3
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR3 réussie
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR1 avec priorité HIGH
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR2 avec priorité NORMAL
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR3 avec priorité LOW
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion automatique au récepteur prioritaire KiwiSDR1
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1 réussie
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion automatique au récepteur prioritaire KiwiSDR2
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR2
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR2 réussie
+2025-04-14 15:15:25 - INFO - src.sdr_client.sdr_client - Boucle de gestion des connexions arrêtée
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité HIGH
+2025-04-14 15:15:49 - WARNING - src.sdr_client.sdr_client - Le récepteur Test KiwiSDR existe déjà
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Suppression du récepteur Test KiwiSDR
+2025-04-14 15:15:49 - WARNING - src.sdr_client.sdr_client - Impossible de supprimer: le récepteur NonExistentSDR n'existe pas
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR réussie
+2025-04-14 15:15:49 - ERROR - src.sdr_client.sdr_client - Le récepteur NonExistentSDR n'existe pas
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR
+2025-04-14 15:15:49 - ERROR - src.sdr_client.sdr_client - Échec de la connexion à Test KiwiSDR
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR réussie
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur Test KiwiSDR
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur Test KiwiSDR réussie
+2025-04-14 15:15:49 - ERROR - src.sdr_client.sdr_client - Le récepteur NonExistentSDR n'existe pas
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion automatique au récepteur Test KiwiSDR pour le flux audio
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR réussie
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion automatique au récepteur Test KiwiSDR pour le flux waterfall
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR réussie
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR1 avec priorité NORMAL
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR2 avec priorité NORMAL
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1 réussie
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Démarrage du client SDR
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Arrêt du client SDR
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur KiwiSDR1
+2025-04-14 15:15:49 - WARNING - src.sdr_client.audio_stream - Le récepteur KiwiSDR1 n'est pas dans la liste des flux
+2025-04-14 15:15:49 - WARNING - root - Tentative de suppression d'un flux waterfall inexistant: KiwiSDR1
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur KiwiSDR1 réussie
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR1 avec priorité HIGH
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR2 avec priorité LOW
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1 réussie
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Modification de la priorité de Test KiwiSDR: NORMAL -> CRITICAL
+2025-04-14 15:15:49 - ERROR - src.sdr_client.sdr_client - Le récepteur NonExistentSDR n'existe pas
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR1 avec priorité LOW
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR2 avec priorité NORMAL
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR3 avec priorité HIGH
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1 réussie
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR2
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR2 réussie
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Déconnexion de KiwiSDR1 pour libérer des ressources pour KiwiSDR3
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur KiwiSDR1
+2025-04-14 15:15:49 - WARNING - src.sdr_client.audio_stream - Le récepteur KiwiSDR1 n'est pas dans la liste des flux
+2025-04-14 15:15:49 - WARNING - root - Tentative de suppression d'un flux waterfall inexistant: KiwiSDR1
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur KiwiSDR1 réussie
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR3
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR3 réussie
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR1 avec priorité HIGH
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR2 avec priorité NORMAL
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR3 avec priorité LOW
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion automatique au récepteur prioritaire KiwiSDR1
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1 réussie
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion automatique au récepteur prioritaire KiwiSDR2
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR2
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR2 réussie
+2025-04-14 15:15:49 - INFO - src.sdr_client.sdr_client - Boucle de gestion des connexions arrêtée
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Facteur de calibration RSSI: 0.6666666666666666
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Niveau de bruit défini à -115.0 dBm
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 ajouté au gestionnaire RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 défini comme référence pour la calibration RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 ajouté au gestionnaire RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 défini comme référence pour la calibration RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver2 ajouté au gestionnaire RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Nouveau récepteur de référence: Receiver2
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 supprimé du gestionnaire RSSI
+2025-04-14 15:21:08 - WARNING - src.signal_processing.rssi - Impossible de supprimer: le récepteur NonExistent n'existe pas
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Aucun récepteur de référence défini
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver2 supprimé du gestionnaire RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 ajouté au gestionnaire RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 défini comme référence pour la calibration RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver2 ajouté au gestionnaire RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver2 défini comme référence pour la calibration RSSI
+2025-04-14 15:21:08 - WARNING - src.signal_processing.rssi - Impossible de définir la référence: le récepteur NonExistent n'existe pas
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 ajouté au gestionnaire RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 défini comme référence pour la calibration RSSI
+2025-04-14 15:21:08 - WARNING - src.signal_processing.rssi - Le récepteur NonExistent n'existe pas
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 ajouté au gestionnaire RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 défini comme référence pour la calibration RSSI
+2025-04-14 15:21:08 - WARNING - src.signal_processing.rssi - Le récepteur NonExistent n'existe pas
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 ajouté au gestionnaire RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 défini comme référence pour la calibration RSSI
+2025-04-14 15:21:08 - WARNING - src.signal_processing.rssi - Le récepteur NonExistent n'existe pas
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 ajouté au gestionnaire RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 défini comme référence pour la calibration RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver2 ajouté au gestionnaire RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur de référence Receiver1 calibré à -40.0 dBm
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver2 calibré par rapport à la référence
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 ajouté au gestionnaire RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver1 défini comme référence pour la calibration RSSI
+2025-04-14 15:21:08 - INFO - src.signal_processing.rssi - Récepteur Receiver2 ajouté au gestionnaire RSSI

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDR Triangulation</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="app-container">
+        <header class="main-header">
+            <h1>SDR Triangulation</h1>
+            <div class="status-indicator">
+                <span class="status-label">Statut:</span>
+                <span id="status-value" class="status-value">Inactif</span>
+            </div>
+            <div class="header-controls">
+                <button id="btn-settings" class="btn btn-icon" title="Paramètres">
+                    <i class="fas fa-cog"></i>
+                </button>
+                <button id="btn-help" class="btn btn-icon" title="Aide">
+                    <i class="fas fa-question-circle"></i>
+                </button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h2>Récepteurs</h2>
+                    <div id="receivers-list" class="receivers-list">
+                        <p class="empty-state">Aucun récepteur connecté</p>
+                    </div>
+                    <button id="btn-add-receiver" class="btn btn-primary">
+                        <i class="fas fa-plus"></i> Ajouter un récepteur
+                    </button>
+                </div>
+
+                <div class="sidebar-section">
+                    <h2>Contrôle</h2>
+                    <div class="control-group">
+                        <label for="frequency">Fréquence (Hz):</label>
+                        <div class="frequency-control">
+                            <input type="number" id="frequency" min="0" max="30000000" step="1000" value="7100000">
+                            <select id="frequency-unit">
+                                <option value="1">Hz</option>
+                                <option value="1000" selected>kHz</option>
+                                <option value="1000000">MHz</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label for="mode">Mode:</label>
+                        <select id="mode">
+                            <option value="AM">AM</option>
+                            <option value="FM">FM</option>
+                            <option value="USB" selected>USB</option>
+                            <option value="LSB">LSB</option>
+                            <option value="CW">CW</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label for="bandwidth">Bande passante (Hz):</label>
+                        <input type="number" id="bandwidth" min="500" max="12000" step="100" value="2400">
+                    </div>
+                    <div class="action-buttons">
+                        <button id="btn-start-listening" class="btn btn-primary" disabled>
+                            <i class="fas fa-play"></i> Démarrer l'écoute
+                        </button>
+                        <button id="btn-stop-listening" class="btn btn-danger" disabled>
+                            <i class="fas fa-stop"></i> Arrêter
+                        </button>
+                    </div>
+                </div>
+
+                <div class="sidebar-section">
+                    <div id="frequency-favorites"></div>
+                </div>
+
+                <div class="sidebar-section">
+                    <div id="frequency-bands"></div>
+                </div>
+
+                <div class="sidebar-section">
+                    <h2>Signaux détectés</h2>
+                    <div id="signals-list" class="signals-list">
+                        <p class="empty-state">Aucun signal détecté</p>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="content-area">
+                <div class="map-container">
+                    <div id="map"></div>
+                    <div class="map-controls">
+                        <button id="btn-zoom-in" class="btn btn-icon" title="Zoom avant">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button id="btn-zoom-out" class="btn btn-icon" title="Zoom arrière">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                        <button id="btn-center-map" class="btn btn-icon" title="Centrer la carte">
+                            <i class="fas fa-crosshairs"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="data-view">
+                    <div class="tabs">
+                        <button id="tab-spectro" class="tab-btn active">Spectrogramme</button>
+                        <button id="tab-audio" class="tab-btn">Audio</button>
+                        <button id="tab-triangulation" class="tab-btn">Triangulation</button>
+                        <button id="tab-annotation" class="tab-btn">Annotations</button>
+                    </div>
+                    <div class="tab-content">
+                        <div id="spectro-view" class="tab-pane active">
+                            <div class="spectro-container">
+                                <canvas id="spectrogram"></canvas>
+                                <div class="spectro-controls">
+                                    <button id="btn-save-spectro" class="btn btn-small" disabled>
+                                        <i class="fas fa-save"></i> Enregistrer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="audio-view" class="tab-pane">
+                            <div class="audio-container">
+                                <audio id="audio-player" controls></audio>
+                                <canvas id="audio-visualizer"></canvas>
+                                <div class="audio-controls">
+                                    <div class="volume-controls">
+                                        <button id="mute-button" class="btn btn-icon">
+                                            <i class="fas fa-volume-up"></i>
+                                        </button>
+                                        <input type="range" id="volume-control" min="0" max="1" step="0.01" value="0.75">
+                                    </div>
+                                    <button id="btn-record" class="btn btn-primary" disabled>
+                                        <i class="fas fa-microphone"></i> Enregistrer
+                                    </button>
+                                    <button id="btn-save-audio" class="btn btn-small" disabled>
+                                        <i class="fas fa-save"></i> Exporter WAV
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="triangulation-view" class="tab-pane">
+                            <div class="triangulation-container">
+                                <div class="triangulation-results">
+                                    <h3>Résultats de triangulation</h3>
+                                    <div id="triangulation-data">
+                                        <p class="empty-state">Aucune triangulation effectuée</p>
+                                    </div>
+                                </div>
+                                <div class="triangulation-controls">
+                                    <button id="btn-triangulate" class="btn btn-primary" disabled>
+                                        <i class="fas fa-map-marker-alt"></i> Trianguler
+                                    </button>
+                                    <div class="export-buttons">
+                                        <button id="btn-export-json" class="btn btn-small" disabled>
+                                            <i class="fas fa-file-code"></i> JSON
+                                        </button>
+                                        <button id="btn-export-csv" class="btn btn-small" disabled>
+                                            <i class="fas fa-file-csv"></i> CSV
+                                        </button>
+                                        <button id="btn-export-kml" class="btn btn-small" disabled>
+                                            <i class="fas fa-file-export"></i> KML
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="annotation-view" class="tab-pane">
+                            <div class="annotation-container">
+                                <div class="annotation-list-container">
+                                    <div class="annotation-header">
+                                        <h3>Annotations</h3>
+                                        <button id="btn-add-annotation" class="btn btn-primary">
+                                            <i class="fas fa-plus"></i> Nouvelle
+                                        </button>
+                                        <button id="btn-export-annotations" class="btn btn-small">
+                                            <i class="fas fa-save"></i> Exporter
+                                        </button>
+                                    </div>
+                                    <div id="annotations-list">
+                                        <p class="empty-state">Aucune annotation</p>
+                                    </div>
+                                </div>
+                                <form id="annotation-form" class="annotation-form">
+                                    <h3 class="form-title">Nouvelle Annotation</h3>
+                                    <div class="form-group">
+                                        <label for="annotation-title">Titre:</label>
+                                        <input type="text" id="annotation-title" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="annotation-notes">Notes:</label>
+                                        <textarea id="annotation-notes" rows="4"></textarea>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="annotation-frequency">Fréquence:</label>
+                                            <div class="frequency-control">
+                                                <input type="number" id="annotation-frequency" step="0.001" required>
+                                                <select id="annotation-frequency-unit">
+                                                    <option value="1">Hz</option>
+                                                    <option value="1000" selected>kHz</option>
+                                                    <option value="1000000">MHz</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="annotation-mode">Mode:</label>
+                                            <select id="annotation-mode">
+                                                <option value="AM">AM</option>
+                                                <option value="FM">FM</option>
+                                                <option value="USB" selected>USB</option>
+                                                <option value="LSB">LSB</option>
+                                                <option value="CW">CW</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="annotation-tags">Tags (séparés par des virgules):</label>
+                                        <input type="text" id="annotation-tags" placeholder="Ex: weather, maritime, emergency">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Position (optionnelle):</label>
+                                        <div class="position-inputs">
+                                            <div class="position-input">
+                                                <label for="annotation-lat">Latitude:</label>
+                                                <input type="number" id="annotation-lat" step="0.000001">
+                                            </div>
+                                            <div class="position-input">
+                                                <label for="annotation-lng">Longitude:</label>
+                                                <input type="number" id="annotation-lng" step="0.000001">
+                                            </div>
+                                            <button type="button" id="btn-pick-annotation-location" class="btn btn-small">
+                                                <i class="fas fa-map-marker-alt"></i> Choisir sur la carte
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="form-actions">
+                                        <button type="button" id="btn-cancel-annotation" class="btn btn-secondary">Annuler</button>
+                                        <button type="submit" class="btn btn-primary">Enregistrer</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <footer class="main-footer">
+            <div class="footer-status">
+                <span id="connection-status" class="connection-status connected">
+                    <i class="fas fa-wifi"></i> Connecté
+                </span>
+                <span id="processing-status" class="processing-status">
+                    <i class="fas fa-cogs"></i> Inactif
+                </span>
+            </div>
+            <div class="footer-info">
+                <span id="version">SDR Triangulation v1.0</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modales -->
+    <div id="modal-add-receiver" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2>Ajouter un récepteur</h2>
+            <form id="add-receiver-form">
+                <div class="form-group">
+                    <label for="receiver-name">Nom:</label>
+                    <input type="text" id="receiver-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="receiver-type">Type:</label>
+                    <select id="receiver-type">
+                        <option value="rtlsdr">RTL-SDR</option>
+                        <option value="hackrf">HackRF</option>
+                        <option value="sdrplay">SDRplay</option>
+                        <option value="airspy">Airspy</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="receiver-address">Adresse:</label>
+                    <input type="text" id="receiver-address" placeholder="IP:Port ou URL">
+                </div>
+                <div class="form-group">
+                    <label>Position:</label>
+                    <div class="position-inputs">
+                        <div class="position-input">
+                            <label for="receiver-lat">Latitude:</label>
+                            <input type="number" id="receiver-lat" step="0.000001" required>
+                        </div>
+                        <div class="position-input">
+                            <label for="receiver-lon">Longitude:</label>
+                            <input type="number" id="receiver-lon" step="0.000001" required>
+                        </div>
+                    </div>
+                    <button type="button" id="btn-pick-location" class="btn btn-small">
+                        <i class="fas fa-map-marker-alt"></i> Choisir sur la carte
+                    </button>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary modal-cancel">Annuler</button>
+                    <button type="submit" class="btn btn-primary">Ajouter</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Chargement des scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js"></script>
+    <script src="{{ url_for('static', filename='js/waterfall.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/audio-control.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/frequency-filter.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/annotation.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html> 

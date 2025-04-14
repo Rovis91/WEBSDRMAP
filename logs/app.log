@@ -1,0 +1,1363 @@
+2025-04-14 16:38:27 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_974zxqwr\audio\test_audio.wav
+2025-04-14 16:38:27 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_974zxqwr\audio\audio_20250414_163827.wav
+2025-04-14 16:38:27 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en tant qu'image: C:\Users\antoi\AppData\Local\Temp\test_exports_3h75uc18\spectrograms\test_spectrogram.png
+2025-04-14 16:38:28 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en tant qu'image: C:\Users\antoi\AppData\Local\Temp\test_exports_3h75uc18\spectrograms\spectrogram_20250414_163827.png
+2025-04-14 16:38:28 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format NumPy: C:\Users\antoi\AppData\Local\Temp\test_exports_1rsa61d9\spectrograms\test_spectrogram.npz
+2025-04-14 16:38:28 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_mcs1t_9q\spectrograms\test_spectrogram.csv
+2025-04-14 16:38:28 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_nn26c_0w\triangulation\test_triangulation.csv
+2025-04-14 16:38:28 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_0u7peo70\triangulation\test_triangulation.json
+2025-04-14 16:38:28 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en KML: C:\Users\antoi\AppData\Local\Temp\test_exports_vvu9uhcc\triangulation\test_triangulation.kml
+2025-04-14 16:38:28 - INFO - src.data_export.data_export - Annotations exportées avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_tkab9xfq\annotations\test_annotations.json
+2025-04-14 16:38:28 - INFO - src.data_export.data_export - Annotations exportées avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_77j_oix0\annotations\test_annotations.csv
+2025-04-14 16:38:28 - INFO - src.data_export.data_export - DataExportManager initialisé avec le répertoire de base: C:\Users\antoi\AppData\Local\Temp\test_exports_uv09ay3k
+2025-04-14 16:38:28 - INFO - src.data_export.data_export - DataExportManager initialisé avec le répertoire de base: C:\Users\antoi\AppData\Local\Temp\test_exports_gd8dtxdr
+2025-04-14 16:38:28 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_gd8dtxdr\audio\test_export_audio.wav
+2025-04-14 16:38:28 - ERROR - src.data_export.data_export - Erreur lors de l'exportation du spectrogramme en image: Can't find a usable tk.tcl in the following directories: 
+    C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tcl8.6/tk8.6 C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tk8.6 C:/Users/antoi/AppData/Local/Programs/Python/lib/tk8.6 C:/Users/antoi/AppData/Local/Programs/Python/lib/tk8.6 C:/Users/antoi/AppData/Local/Programs/lib/tk8.6 C:/Users/antoi/AppData/Local/Programs/Python/library
+
+C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tk8.6/tk.tcl: couldn't read file "C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tk8.6/ttk/fonts.tcl": no such file or directory
+couldn't read file "C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tk8.6/ttk/fonts.tcl": no such file or directory
+    while executing
+"source -encoding utf-8 [file join $::ttk::library fonts.tcl]"
+    (file "C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tk8.6/ttk/ttk.tcl" line 15)
+    invoked from within
+"source -encoding utf-8 C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tk8.6/ttk/ttk.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 [list source -encoding utf-8 $::ttk::library/ttk.tcl]"
+    (file "C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tk8.6/tk.tcl" line 697)
+    invoked from within
+"source C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tk8.6/tk.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list source $file]"
+
+
+This probably means that tk wasn't installed properly.
+
+2025-04-14 16:38:29 - INFO - src.data_export.data_export - DataExportManager initialisé avec le répertoire de base: C:\Users\antoi\AppData\Local\Temp\test_exports_cn8tp04z
+2025-04-14 16:38:29 - INFO - src.data_export.data_export - Résumé d'exportation généré: C:\Users\antoi\AppData\Local\Temp\test_exports_cn8tp04z\test_export_summary.txt
+2025-04-14 16:38:29 - INFO - src.data_export.data_export - DataExportManager initialisé avec le répertoire de base: C:\Users\antoi\AppData\Local\Temp\test_exports_hoclb48d
+2025-04-14 18:16:23 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 19:10:01 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_rap9wngw\audio\test_audio.wav
+2025-04-14 19:10:01 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_rap9wngw\audio\audio_20250414_191001.wav
+2025-04-14 19:10:03 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en tant qu'image: C:\Users\antoi\AppData\Local\Temp\test_exports_atyv5y58\spectrograms\test_spectrogram.png
+2025-04-14 19:10:03 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en tant qu'image: C:\Users\antoi\AppData\Local\Temp\test_exports_atyv5y58\spectrograms\spectrogram_20250414_191003.png
+2025-04-14 19:10:03 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format NumPy: C:\Users\antoi\AppData\Local\Temp\test_exports_jv874ipt\spectrograms\test_spectrogram.npz
+2025-04-14 19:10:04 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_6yqrvwvu\spectrograms\test_spectrogram.csv
+2025-04-14 19:10:04 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_3mptpbpe\triangulation\test_triangulation.csv
+2025-04-14 19:10:04 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_wya2ch68\triangulation\test_triangulation.json
+2025-04-14 19:10:04 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en KML: C:\Users\antoi\AppData\Local\Temp\test_exports_iefae_14\triangulation\test_triangulation.kml
+2025-04-14 19:10:04 - INFO - src.data_export.data_export - Annotations exportées avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_cjoc7faw\annotations\test_annotations.json
+2025-04-14 19:10:04 - INFO - src.data_export.data_export - Annotations exportées avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_9r627qq9\annotations\test_annotations.csv
+2025-04-14 19:10:04 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_ygll3ug2\audio\test_export_audio.wav
+2025-04-14 19:10:05 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en tant qu'image: C:\Users\antoi\AppData\Local\Temp\test_exports_ygll3ug2\spectrograms\test_export_spectrogram.png
+2025-04-14 19:10:05 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format NumPy: C:\Users\antoi\AppData\Local\Temp\test_exports_ygll3ug2\spectrograms\test_export_spectrogram.npz
+2025-04-14 19:10:05 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_ygll3ug2\spectrograms\test_export_spectrogram.csv
+2025-04-14 19:10:05 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_ygll3ug2\triangulation\test_export_triangulation.csv
+2025-04-14 19:10:05 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_ygll3ug2\triangulation\test_export_triangulation.json
+2025-04-14 19:10:05 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en KML: C:\Users\antoi\AppData\Local\Temp\test_exports_ygll3ug2\triangulation\test_export_triangulation.kml
+2025-04-14 19:10:05 - INFO - src.data_export.data_export - Annotations exportées avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_ygll3ug2\annotations\test_export_annotations.json
+2025-04-14 19:10:05 - INFO - src.data_export.data_export - Annotations exportées avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_ygll3ug2\annotations\test_export_annotations.csv
+2025-04-14 19:10:05 - INFO - src.data_export.data_export - Résumé d'exportation généré: C:\Users\antoi\AppData\Local\Temp\test_exports_ygll3ug2\test_export_summary.txt
+2025-04-14 19:10:05 - INFO - src.data_export.data_export - Exportation complète terminée. 10 fichiers exportés.
+2025-04-14 19:10:05 - INFO - src.data_export.data_export - Résumé d'exportation généré: C:\Users\antoi\AppData\Local\Temp\test_exports_o39434b_\test_export_summary.txt
+2025-04-14 19:10:25 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_s5wxxwp4\audio\test_audio.wav
+2025-04-14 19:10:25 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_s5wxxwp4\audio\audio_20250414_191025.wav
+2025-04-14 19:10:25 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en tant qu'image: C:\Users\antoi\AppData\Local\Temp\test_exports_hnu5pzqk\spectrograms\test_spectrogram.png
+2025-04-14 19:10:26 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en tant qu'image: C:\Users\antoi\AppData\Local\Temp\test_exports_hnu5pzqk\spectrograms\spectrogram_20250414_191025.png
+2025-04-14 19:10:26 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format NumPy: C:\Users\antoi\AppData\Local\Temp\test_exports_8zuyz_r1\spectrograms\test_spectrogram.npz
+2025-04-14 19:10:26 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_zvlriyl5\spectrograms\test_spectrogram.csv
+2025-04-14 19:10:26 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_gsuqv2f7\triangulation\test_triangulation.csv
+2025-04-14 19:10:26 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_pjgis3hp\triangulation\test_triangulation.json
+2025-04-14 19:10:26 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en KML: C:\Users\antoi\AppData\Local\Temp\test_exports_1_exj0x7\triangulation\test_triangulation.kml
+2025-04-14 19:10:26 - INFO - src.data_export.data_export - Annotations exportées avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports__kol0z7g\annotations\test_annotations.json
+2025-04-14 19:10:26 - INFO - src.data_export.data_export - Annotations exportées avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_crtuawa9\annotations\test_annotations.csv
+2025-04-14 19:10:26 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_ko1u3cq0\audio\test_export_audio.wav
+2025-04-14 19:10:27 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en tant qu'image: C:\Users\antoi\AppData\Local\Temp\test_exports_ko1u3cq0\spectrograms\test_export_spectrogram.png
+2025-04-14 19:10:27 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format NumPy: C:\Users\antoi\AppData\Local\Temp\test_exports_ko1u3cq0\spectrograms\test_export_spectrogram.npz
+2025-04-14 19:10:27 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_ko1u3cq0\spectrograms\test_export_spectrogram.csv
+2025-04-14 19:10:27 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_ko1u3cq0\triangulation\test_export_triangulation.csv
+2025-04-14 19:10:27 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_ko1u3cq0\triangulation\test_export_triangulation.json
+2025-04-14 19:10:27 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en KML: C:\Users\antoi\AppData\Local\Temp\test_exports_ko1u3cq0\triangulation\test_export_triangulation.kml
+2025-04-14 19:10:27 - INFO - src.data_export.data_export - Annotations exportées avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_ko1u3cq0\annotations\test_export_annotations.json
+2025-04-14 19:10:27 - INFO - src.data_export.data_export - Annotations exportées avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_ko1u3cq0\annotations\test_export_annotations.csv
+2025-04-14 19:10:27 - INFO - src.data_export.data_export - Résumé d'exportation généré: C:\Users\antoi\AppData\Local\Temp\test_exports_ko1u3cq0\test_export_summary.txt
+2025-04-14 19:10:27 - INFO - src.data_export.data_export - Exportation complète terminée. 10 fichiers exportés.
+2025-04-14 19:10:27 - INFO - src.data_export.data_export - Résumé d'exportation généré: C:\Users\antoi\AppData\Local\Temp\test_exports_kquq1u7y\test_export_summary.txt
+2025-04-14 19:11:15 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_16p79ppk\audio\test_audio.wav
+2025-04-14 19:11:15 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_16p79ppk\audio\audio_20250414_191115.wav
+2025-04-14 19:11:16 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en tant qu'image: C:\Users\antoi\AppData\Local\Temp\test_exports_860k49p8\spectrograms\test_spectrogram.png
+2025-04-14 19:11:16 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en tant qu'image: C:\Users\antoi\AppData\Local\Temp\test_exports_860k49p8\spectrograms\spectrogram_20250414_191116.png
+2025-04-14 19:11:16 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format NumPy: C:\Users\antoi\AppData\Local\Temp\test_exports_9gpzbuw0\spectrograms\test_spectrogram.npz
+2025-04-14 19:11:16 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_h7q91jvt\spectrograms\test_spectrogram.csv
+2025-04-14 19:11:16 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_pfl5n63w\triangulation\test_triangulation.csv
+2025-04-14 19:11:17 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_tj51pzws\triangulation\test_triangulation.json
+2025-04-14 19:11:17 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en KML: C:\Users\antoi\AppData\Local\Temp\test_exports__n5j9n5n\triangulation\test_triangulation.kml
+2025-04-14 19:11:17 - INFO - src.data_export.data_export - Annotations exportées avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_4nkrmtcu\annotations\test_annotations.json
+2025-04-14 19:11:17 - INFO - src.data_export.data_export - Annotations exportées avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_twl1hyvh\annotations\test_annotations.csv
+2025-04-14 19:11:17 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_eu_q3obs\audio\test_export_audio.wav
+2025-04-14 19:11:17 - ERROR - src.data_export.data_export - Erreur lors de l'exportation du spectrogramme en image: Can't find a usable tk.tcl in the following directories: 
+    C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tcl8.6/tk8.6 C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tk8.6 C:/Users/antoi/AppData/Local/Programs/Python/lib/tk8.6 C:/Users/antoi/AppData/Local/Programs/Python/lib/tk8.6 C:/Users/antoi/AppData/Local/Programs/lib/tk8.6 C:/Users/antoi/AppData/Local/Programs/Python/library
+
+C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tk8.6/tk.tcl: couldn't read file "C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tk8.6/icons.tcl": no such file or directory
+couldn't read file "C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tk8.6/icons.tcl": no such file or directory
+    while executing
+"source -encoding utf-8 C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tk8.6/icons.tcl"
+    (in namespace eval "::" script line 1)
+    invoked from within
+"namespace eval :: [list source -encoding utf-8 [file join $::tk_library $file.tcl]]"
+    (procedure "SourceLibFile" line 2)
+    invoked from within
+"SourceLibFile icons"
+    (in namespace eval "::tk" script line 2)
+    invoked from within
+"namespace eval ::tk {
+	SourceLibFile icons
+	SourceLibFile button
+	SourceLibFile entry
+	SourceLibFile listbox
+	SourceLibFile menu
+	SourceLibFile panedw..."
+    (file "C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tk8.6/tk.tcl" line 501)
+    invoked from within
+"source C:/Users/antoi/AppData/Local/Programs/Python/Python312/tcl/tk8.6/tk.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list source $file]"
+
+
+This probably means that tk wasn't installed properly.
+
+2025-04-14 19:11:18 - INFO - src.data_export.data_export - Résumé d'exportation généré: C:\Users\antoi\AppData\Local\Temp\test_exports_qzow9vg0\test_export_summary.txt
+2025-04-14 19:11:44 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_loiketns\audio\test_audio.wav
+2025-04-14 19:11:44 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_loiketns\audio\audio_20250414_191144.wav
+2025-04-14 19:11:44 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en tant qu'image: C:\Users\antoi\AppData\Local\Temp\test_exports_8pkdclpo\spectrograms\test_spectrogram.png
+2025-04-14 19:11:44 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en tant qu'image: C:\Users\antoi\AppData\Local\Temp\test_exports_8pkdclpo\spectrograms\spectrogram_20250414_191144.png
+2025-04-14 19:11:44 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format NumPy: C:\Users\antoi\AppData\Local\Temp\test_exports_jk_5os7h\spectrograms\test_spectrogram.npz
+2025-04-14 19:11:44 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_zshojvpi\spectrograms\test_spectrogram.csv
+2025-04-14 19:11:44 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_uyr7aa2e\triangulation\test_triangulation.csv
+2025-04-14 19:11:45 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_g21adegk\triangulation\test_triangulation.json
+2025-04-14 19:11:45 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en KML: C:\Users\antoi\AppData\Local\Temp\test_exports_o7g0wylq\triangulation\test_triangulation.kml
+2025-04-14 19:11:45 - INFO - src.data_export.data_export - Annotations exportées avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_z1unh5pn\annotations\test_annotations.json
+2025-04-14 19:11:45 - INFO - src.data_export.data_export - Annotations exportées avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_i7suiaao\annotations\test_annotations.csv
+2025-04-14 19:11:45 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_87ll7e87\audio\test_export_audio.wav
+2025-04-14 19:11:45 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en tant qu'image: C:\Users\antoi\AppData\Local\Temp\test_exports_87ll7e87\spectrograms\test_export_spectrogram.png
+2025-04-14 19:11:45 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format NumPy: C:\Users\antoi\AppData\Local\Temp\test_exports_87ll7e87\spectrograms\test_export_spectrogram.npz
+2025-04-14 19:11:45 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_87ll7e87\spectrograms\test_export_spectrogram.csv
+2025-04-14 19:11:45 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_87ll7e87\triangulation\test_export_triangulation.csv
+2025-04-14 19:11:45 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_87ll7e87\triangulation\test_export_triangulation.json
+2025-04-14 19:11:45 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en KML: C:\Users\antoi\AppData\Local\Temp\test_exports_87ll7e87\triangulation\test_export_triangulation.kml
+2025-04-14 19:11:45 - INFO - src.data_export.data_export - Annotations exportées avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_87ll7e87\annotations\test_export_annotations.json
+2025-04-14 19:11:45 - INFO - src.data_export.data_export - Annotations exportées avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_87ll7e87\annotations\test_export_annotations.csv
+2025-04-14 19:11:45 - INFO - src.data_export.data_export - Résumé d'exportation généré: C:\Users\antoi\AppData\Local\Temp\test_exports_87ll7e87\test_export_summary.txt
+2025-04-14 19:11:45 - INFO - src.data_export.data_export - Exportation complète terminée. 10 fichiers exportés.
+2025-04-14 19:11:45 - INFO - src.data_export.data_export - Résumé d'exportation généré: C:\Users\antoi\AppData\Local\Temp\test_exports_q2ijkix3\test_export_summary.txt
+2025-04-14 19:12:16 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_yjeutrzt\audio\test_audio.wav
+2025-04-14 19:12:16 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_yjeutrzt\audio\audio_20250414_191216.wav
+2025-04-14 19:12:17 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en tant qu'image: C:\Users\antoi\AppData\Local\Temp\test_exports_z803xiu7\spectrograms\test_spectrogram.png
+2025-04-14 19:12:17 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en tant qu'image: C:\Users\antoi\AppData\Local\Temp\test_exports_z803xiu7\spectrograms\spectrogram_20250414_191217.png
+2025-04-14 19:12:17 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format NumPy: C:\Users\antoi\AppData\Local\Temp\test_exports_puynb5qo\spectrograms\test_spectrogram.npz
+2025-04-14 19:12:17 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_wx_carr7\spectrograms\test_spectrogram.csv
+2025-04-14 19:12:17 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_wo9vhwud\triangulation\test_triangulation.csv
+2025-04-14 19:12:17 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_b7x1_ss9\triangulation\test_triangulation.json
+2025-04-14 19:12:17 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en KML: C:\Users\antoi\AppData\Local\Temp\test_exports_toujxsry\triangulation\test_triangulation.kml
+2025-04-14 19:12:17 - INFO - src.data_export.data_export - Annotations exportées avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_n3g5wkvc\annotations\test_annotations.json
+2025-04-14 19:12:17 - INFO - src.data_export.data_export - Annotations exportées avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_os3h4x53\annotations\test_annotations.csv
+2025-04-14 19:12:18 - INFO - src.data_export.data_export - Fichier audio exporté avec succès: C:\Users\antoi\AppData\Local\Temp\test_exports_cy_huiuo\audio\test_export_audio.wav
+2025-04-14 19:12:18 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en tant qu'image: C:\Users\antoi\AppData\Local\Temp\test_exports_cy_huiuo\spectrograms\test_export_spectrogram.png
+2025-04-14 19:12:18 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format NumPy: C:\Users\antoi\AppData\Local\Temp\test_exports_cy_huiuo\spectrograms\test_export_spectrogram.npz
+2025-04-14 19:12:18 - INFO - src.data_export.data_export - Spectrogramme exporté avec succès en format CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_cy_huiuo\spectrograms\test_export_spectrogram.csv
+2025-04-14 19:12:18 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_cy_huiuo\triangulation\test_export_triangulation.csv
+2025-04-14 19:12:18 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_cy_huiuo\triangulation\test_export_triangulation.json
+2025-04-14 19:12:18 - INFO - src.data_export.data_export - Résultats de triangulation exportés avec succès en KML: C:\Users\antoi\AppData\Local\Temp\test_exports_cy_huiuo\triangulation\test_export_triangulation.kml
+2025-04-14 19:12:18 - INFO - src.data_export.data_export - Annotations exportées avec succès en JSON: C:\Users\antoi\AppData\Local\Temp\test_exports_cy_huiuo\annotations\test_export_annotations.json
+2025-04-14 19:12:18 - INFO - src.data_export.data_export - Annotations exportées avec succès en CSV: C:\Users\antoi\AppData\Local\Temp\test_exports_cy_huiuo\annotations\test_export_annotations.csv
+2025-04-14 19:12:18 - INFO - src.data_export.data_export - Résumé d'exportation généré: C:\Users\antoi\AppData\Local\Temp\test_exports_cy_huiuo\test_export_summary.txt
+2025-04-14 19:12:18 - INFO - src.data_export.data_export - Exportation complète terminée. 10 fichiers exportés.
+2025-04-14 19:12:18 - INFO - src.data_export.data_export - Résumé d'exportation généré: C:\Users\antoi\AppData\Local\Temp\test_exports_i4cg48nq\test_export_summary.txt
+2025-04-14 19:12:45 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 19:12:46 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 19:12:47 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 19:12:47 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 19:12:48 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 19:12:48 - INFO - src.utils.performance - Pool de threads arrêté
+2025-04-14 19:12:48 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 19:12:48 - INFO - src.utils.performance - Pool de threads arrêté
+2025-04-14 19:12:48 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 19:12:48 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 19:12:48 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 19:12:48 - INFO - src.utils.performance - Pool de threads arrêté
+2025-04-14 19:12:48 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 19:12:48 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 19:12:48 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 19:12:48 - INFO - src.utils.performance - Pool de threads arrêté
+2025-04-14 19:12:48 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 19:12:48 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 19:12:48 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 19:12:48 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 19:12:49 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 19:12:49 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 19:12:49 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 19:12:49 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 19:12:49 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 19:12:49 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 19:18:37 - WARNING - root - Taille de ligne incorrecte: 3 vs 4 attendu
+2025-04-14 19:18:37 - ERROR - root - Erreur lors du traitement des données waterfall: a bytes-like object is required, not 'NoneType'
+2025-04-14 19:18:37 - INFO - root - Flux waterfall démarré pour test_kiwi
+2025-04-14 19:18:37 - ERROR - root - Impossible de démarrer le flux waterfall
+2025-04-14 19:18:37 - INFO - root - Flux waterfall démarré pour test_kiwi
+2025-04-14 19:18:37 - INFO - root - Flux waterfall arrêté pour test_kiwi
+2025-04-14 19:18:38 - ERROR - root - Erreur lors du traitement des données waterfall: Test error
+2025-04-14 19:18:38 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:18:38 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:18:38 - WARNING - root - Le flux waterfall pour test_kiwi existe déjà
+2025-04-14 19:18:38 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:18:38 - ERROR - root - Nombre maximum de connexions waterfall atteint (1)
+2025-04-14 19:18:38 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:18:38 - INFO - root - Flux waterfall supprimé pour test_kiwi
+2025-04-14 19:18:38 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:18:38 - INFO - root - Flux waterfall arrêté pour test_kiwi
+2025-04-14 19:18:38 - INFO - root - Flux waterfall supprimé pour test_kiwi
+2025-04-14 19:18:38 - WARNING - root - Tentative de suppression d'un flux waterfall inexistant: nonexistent
+2025-04-14 19:18:38 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:18:38 - INFO - root - Flux waterfall ajouté pour test_kiwi2
+2025-04-14 19:18:38 - INFO - root - Flux waterfall démarré pour test_kiwi
+2025-04-14 19:18:38 - INFO - root - Flux waterfall démarré pour test_kiwi2
+2025-04-14 19:18:38 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:18:38 - INFO - root - Flux waterfall ajouté pour test_kiwi2
+2025-04-14 19:18:38 - INFO - root - Flux waterfall arrêté pour test_kiwi
+2025-04-14 19:19:12 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:19:12 - INFO - root - Flux waterfall supprimé pour test_kiwi
+2025-04-14 19:19:12 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:19:12 - INFO - root - Flux waterfall ajouté pour test_kiwi2
+2025-04-14 19:19:12 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:19:12 - INFO - root - Flux waterfall ajouté pour test_kiwi2
+2025-04-14 19:19:37 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:19:37 - INFO - root - Flux waterfall ajouté pour test_kiwi2
+2025-04-14 19:19:59 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:19:59 - INFO - root - Flux waterfall ajouté pour test_kiwi2
+2025-04-14 19:20:07 - WARNING - root - Taille de ligne incorrecte: 3 vs 4 attendu
+2025-04-14 19:20:07 - ERROR - root - Erreur lors du traitement des données waterfall: a bytes-like object is required, not 'NoneType'
+2025-04-14 19:20:07 - INFO - root - Flux waterfall démarré pour test_kiwi
+2025-04-14 19:20:07 - ERROR - root - Impossible de démarrer le flux waterfall
+2025-04-14 19:20:07 - INFO - root - Flux waterfall démarré pour test_kiwi
+2025-04-14 19:20:07 - INFO - root - Flux waterfall arrêté pour test_kiwi
+2025-04-14 19:20:07 - ERROR - root - Erreur lors du traitement des données waterfall: Test error
+2025-04-14 19:20:07 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:20:07 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:20:07 - WARNING - root - Le flux waterfall pour test_kiwi existe déjà
+2025-04-14 19:20:07 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:20:07 - ERROR - root - Nombre maximum de connexions waterfall atteint (1)
+2025-04-14 19:20:07 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:20:07 - INFO - root - Flux waterfall supprimé pour test_kiwi
+2025-04-14 19:20:07 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:20:07 - INFO - root - Flux waterfall supprimé pour test_kiwi
+2025-04-14 19:20:07 - WARNING - root - Tentative de suppression d'un flux waterfall inexistant: nonexistent
+2025-04-14 19:20:07 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:20:07 - INFO - root - Flux waterfall ajouté pour test_kiwi2
+2025-04-14 19:20:07 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:20:07 - INFO - root - Flux waterfall ajouté pour test_kiwi2
+2025-04-14 19:20:14 - INFO - src.sdr_client.audio_stream - Démarrage du flux audio pour Test KiwiSDR en mode am
+2025-04-14 19:20:14 - INFO - src.sdr_client.audio_stream - Démarrage du flux audio pour Test KiwiSDR en mode am
+2025-04-14 19:20:14 - ERROR - src.sdr_client.audio_stream - Impossible de définir le mode am pour Test KiwiSDR
+2025-04-14 19:20:14 - INFO - src.sdr_client.audio_stream - Arrêt du flux audio pour Test KiwiSDR
+2025-04-14 19:20:14 - INFO - src.sdr_client.audio_stream - Ajout du flux audio pour le récepteur Test KiwiSDR
+2025-04-14 19:20:14 - INFO - src.sdr_client.audio_stream - Ajout du flux audio pour le récepteur Test KiwiSDR
+2025-04-14 19:20:14 - WARNING - src.sdr_client.audio_stream - Le récepteur Test KiwiSDR est déjà dans la liste des flux
+2025-04-14 19:20:14 - INFO - src.sdr_client.audio_stream - Ajout du flux audio pour le récepteur Test KiwiSDR 1
+2025-04-14 19:20:14 - INFO - src.sdr_client.audio_stream - Ajout du flux audio pour le récepteur Test KiwiSDR 2
+2025-04-14 19:20:14 - WARNING - src.sdr_client.audio_stream - Nombre maximal de connexions atteint (2)
+2025-04-14 19:20:14 - INFO - src.sdr_client.audio_stream - Ajout du flux audio pour le récepteur Test KiwiSDR
+2025-04-14 19:20:14 - INFO - src.sdr_client.audio_stream - Suppression du flux audio pour le récepteur Test KiwiSDR
+2025-04-14 19:20:14 - INFO - src.sdr_client.audio_stream - Arrêt du flux audio pour Test KiwiSDR
+2025-04-14 19:20:14 - WARNING - src.sdr_client.audio_stream - Le récepteur Nonexistent n'est pas dans la liste des flux
+2025-04-14 19:20:14 - INFO - src.sdr_client.audio_stream - Démarrage de tous les flux audio en mode am
+2025-04-14 19:20:14 - INFO - src.sdr_client.audio_stream - Arrêt de tous les flux audio
+2025-04-14 19:20:57 - INFO - src.sdr_client.audio_stream - Démarrage du flux audio pour Test KiwiSDR en mode am
+2025-04-14 19:20:57 - INFO - src.sdr_client.audio_stream - Démarrage du flux audio pour Test KiwiSDR en mode am
+2025-04-14 19:20:57 - ERROR - src.sdr_client.audio_stream - Impossible de définir le mode am pour Test KiwiSDR
+2025-04-14 19:20:57 - INFO - src.sdr_client.audio_stream - Arrêt du flux audio pour Test KiwiSDR
+2025-04-14 19:20:57 - INFO - src.sdr_client.audio_stream - Ajout du flux audio pour le récepteur Test KiwiSDR
+2025-04-14 19:20:57 - INFO - src.sdr_client.audio_stream - Ajout du flux audio pour le récepteur Test KiwiSDR
+2025-04-14 19:20:57 - WARNING - src.sdr_client.audio_stream - Le récepteur Test KiwiSDR est déjà dans la liste des flux
+2025-04-14 19:20:57 - INFO - src.sdr_client.audio_stream - Ajout du flux audio pour le récepteur Test KiwiSDR 1
+2025-04-14 19:20:57 - INFO - src.sdr_client.audio_stream - Ajout du flux audio pour le récepteur Test KiwiSDR 2
+2025-04-14 19:20:57 - WARNING - src.sdr_client.audio_stream - Nombre maximal de connexions atteint (2)
+2025-04-14 19:20:57 - INFO - src.sdr_client.audio_stream - Ajout du flux audio pour le récepteur Test KiwiSDR
+2025-04-14 19:20:57 - INFO - src.sdr_client.audio_stream - Suppression du flux audio pour le récepteur Test KiwiSDR
+2025-04-14 19:20:57 - INFO - src.sdr_client.audio_stream - Arrêt du flux audio pour Test KiwiSDR
+2025-04-14 19:20:57 - WARNING - src.sdr_client.audio_stream - Le récepteur Nonexistent n'est pas dans la liste des flux
+2025-04-14 19:20:57 - INFO - src.sdr_client.audio_stream - Démarrage de tous les flux audio en mode am
+2025-04-14 19:20:57 - INFO - src.sdr_client.audio_stream - Arrêt de tous les flux audio
+2025-04-14 19:21:05 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: Test KiwiSDR (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:05 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour Test KiwiSDR
+2025-04-14 19:21:05 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur Test KiwiSDR
+2025-04-14 19:21:05 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:05 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:05 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:05 - INFO - src.sdr_client.kiwi_connection - Déconnexion du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:05 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket fermée pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:05 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:05 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Configuration de la fréquence du récepteur wss://test.kiwisdr.com/kiwi: 7100000 Hz
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Configuration du mode du récepteur wss://test.kiwisdr.com/kiwi: am, BW=6000 Hz
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Démarrage du flux audio depuis le récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Démarrage du flux waterfall depuis le récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: Test KiwiSDR (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour Test KiwiSDR
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur Test KiwiSDR
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur Test KiwiSDR
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour Test KiwiSDR
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de Test KiwiSDR
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Configuration de la fréquence du récepteur Test KiwiSDR: 7100000 Hz
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Configuration du mode du récepteur Test KiwiSDR: am, BW=6000 Hz
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - ERROR - src.sdr_client.kiwi_connection - Erreur WebSocket pour wss://test.kiwisdr.com/kiwi: Test error
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Configuration de la fréquence du récepteur wss://test.kiwisdr.com/kiwi: 7100000 Hz
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Configuration du mode du récepteur wss://test.kiwisdr.com/kiwi: am, BW=6000 Hz
+2025-04-14 19:21:06 - WARNING - src.sdr_client.kiwi_connection - Connexion WebSocket fermée inopinément pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Tentative de reconnexion à wss://test.kiwisdr.com/kiwi (1/3)
+2025-04-14 19:21:06 - INFO - src.sdr_client.kiwi_connection - Tentative de reconnexion à wss://test.kiwisdr.com/kiwi (2/3)
+2025-04-14 19:21:11 - WARNING - src.sdr_client.kiwi_connection - Connexion WebSocket fermée inopinément pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:11 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:11 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:11 - WARNING - src.sdr_client.kiwi_connection - Connexion WebSocket fermée inopinément pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:11 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:11 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:11 - INFO - src.sdr_client.kiwi_connection - Tentative de reconnexion à wss://test.kiwisdr.com/kiwi (3/3)
+2025-04-14 19:21:11 - ERROR - src.sdr_client.kiwi_connection - Nombre maximal de tentatives de reconnexion atteint pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:11 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:11 - ERROR - src.sdr_client.kiwi_connection - Impossible de configurer la fréquence: non prêt (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:11 - ERROR - src.sdr_client.kiwi_connection - Impossible de configurer le mode: non prêt (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:11 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:11 - ERROR - src.sdr_client.kiwi_connection - Impossible de configurer la fréquence: non prêt (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:11 - ERROR - src.sdr_client.kiwi_connection - Impossible de configurer le mode: non prêt (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:11 - ERROR - asyncio - Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<KiwiConnection._on_close.<locals>.try_reconnect() running at C:\Users\antoi\Documents\Netechoppe\trackimmo-site\WEBSDRMAP\src\sdr_client\kiwi_connection.py:535> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-04-14 19:21:48 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:48 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:48 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:48 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:48 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:48 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:48 - INFO - src.sdr_client.kiwi_connection - Configuration de la fréquence du récepteur wss://test.kiwisdr.com/kiwi: 7100000 Hz
+2025-04-14 19:21:48 - INFO - src.sdr_client.kiwi_connection - Configuration du mode du récepteur wss://test.kiwisdr.com/kiwi: am, BW=6000 Hz
+2025-04-14 19:21:48 - WARNING - src.sdr_client.kiwi_connection - Connexion WebSocket fermée inopinément pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:48 - INFO - src.sdr_client.kiwi_connection - Tentative de reconnexion à wss://test.kiwisdr.com/kiwi (1/3)
+2025-04-14 19:21:48 - INFO - src.sdr_client.kiwi_connection - Tentative de reconnexion à wss://test.kiwisdr.com/kiwi (2/3)
+2025-04-14 19:21:53 - WARNING - src.sdr_client.kiwi_connection - Connexion WebSocket fermée inopinément pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:53 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:53 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:53 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:53 - ERROR - src.sdr_client.kiwi_connection - Impossible de configurer la fréquence: non prêt (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:53 - ERROR - src.sdr_client.kiwi_connection - Impossible de configurer le mode: non prêt (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:53 - WARNING - src.sdr_client.kiwi_connection - Connexion WebSocket fermée inopinément pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:53 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:21:53 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:21:53 - INFO - src.sdr_client.kiwi_connection - Tentative de reconnexion à wss://test.kiwisdr.com/kiwi (1/3)
+2025-04-14 19:21:53 - INFO - src.sdr_client.kiwi_connection - Tentative de reconnexion à wss://test.kiwisdr.com/kiwi (2/3)
+2025-04-14 19:21:53 - ERROR - asyncio - Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<KiwiConnection._on_close.<locals>.try_reconnect() done, defined at C:\Users\antoi\Documents\Netechoppe\trackimmo-site\WEBSDRMAP\src\sdr_client\kiwi_connection.py:534> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-04-14 19:21:53 - ERROR - asyncio - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<KiwiConnection._on_close.<locals>.try_reconnect() done, defined at C:\Users\antoi\Documents\Netechoppe\trackimmo-site\WEBSDRMAP\src\sdr_client\kiwi_connection.py:534> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-04-14 19:21:53 - ERROR - asyncio - Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<KiwiConnection._on_close.<locals>.try_reconnect() done, defined at C:\Users\antoi\Documents\Netechoppe\trackimmo-site\WEBSDRMAP\src\sdr_client\kiwi_connection.py:534> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-04-14 19:22:40 - INFO - src.sdr_client.audio_stream - Démarrage du flux audio pour Test KiwiSDR en mode am
+2025-04-14 19:22:40 - INFO - src.sdr_client.audio_stream - Démarrage du flux audio pour Test KiwiSDR en mode am
+2025-04-14 19:22:40 - ERROR - src.sdr_client.audio_stream - Impossible de définir le mode am pour Test KiwiSDR
+2025-04-14 19:22:40 - INFO - src.sdr_client.audio_stream - Arrêt du flux audio pour Test KiwiSDR
+2025-04-14 19:22:40 - INFO - src.sdr_client.audio_stream - Ajout du flux audio pour le récepteur Test KiwiSDR
+2025-04-14 19:22:40 - INFO - src.sdr_client.audio_stream - Ajout du flux audio pour le récepteur Test KiwiSDR
+2025-04-14 19:22:40 - WARNING - src.sdr_client.audio_stream - Le récepteur Test KiwiSDR est déjà dans la liste des flux
+2025-04-14 19:22:40 - INFO - src.sdr_client.audio_stream - Ajout du flux audio pour le récepteur Test KiwiSDR 1
+2025-04-14 19:22:40 - INFO - src.sdr_client.audio_stream - Ajout du flux audio pour le récepteur Test KiwiSDR 2
+2025-04-14 19:22:40 - WARNING - src.sdr_client.audio_stream - Nombre maximal de connexions atteint (2)
+2025-04-14 19:22:40 - INFO - src.sdr_client.audio_stream - Ajout du flux audio pour le récepteur Test KiwiSDR
+2025-04-14 19:22:40 - INFO - src.sdr_client.audio_stream - Suppression du flux audio pour le récepteur Test KiwiSDR
+2025-04-14 19:22:40 - INFO - src.sdr_client.audio_stream - Arrêt du flux audio pour Test KiwiSDR
+2025-04-14 19:22:40 - WARNING - src.sdr_client.audio_stream - Le récepteur Nonexistent n'est pas dans la liste des flux
+2025-04-14 19:22:40 - INFO - src.sdr_client.audio_stream - Démarrage de tous les flux audio en mode am
+2025-04-14 19:22:40 - INFO - src.sdr_client.audio_stream - Arrêt de tous les flux audio
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: Test KiwiSDR (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour Test KiwiSDR
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur Test KiwiSDR
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Déconnexion du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket fermée pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Configuration de la fréquence du récepteur wss://test.kiwisdr.com/kiwi: 7100000 Hz
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Configuration du mode du récepteur wss://test.kiwisdr.com/kiwi: am, BW=6000 Hz
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Démarrage du flux audio depuis le récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:40 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Démarrage du flux waterfall depuis le récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: Test KiwiSDR (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour Test KiwiSDR
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur Test KiwiSDR
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur Test KiwiSDR
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour Test KiwiSDR
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de Test KiwiSDR
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Configuration de la fréquence du récepteur Test KiwiSDR: 7100000 Hz
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Configuration du mode du récepteur Test KiwiSDR: am, BW=6000 Hz
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - ERROR - src.sdr_client.kiwi_connection - Erreur WebSocket pour wss://test.kiwisdr.com/kiwi: Test error
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Authentification auprès du récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Authentification réussie pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Authentification réussie auprès de wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Configuration de la fréquence du récepteur wss://test.kiwisdr.com/kiwi: 7100000 Hz
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Configuration du mode du récepteur wss://test.kiwisdr.com/kiwi: am, BW=6000 Hz
+2025-04-14 19:22:41 - WARNING - src.sdr_client.kiwi_connection - Connexion WebSocket fermée inopinément pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Tentative de reconnexion à wss://test.kiwisdr.com/kiwi (1/3)
+2025-04-14 19:22:41 - INFO - src.sdr_client.kiwi_connection - Tentative de reconnexion à wss://test.kiwisdr.com/kiwi (2/3)
+2025-04-14 19:22:46 - WARNING - src.sdr_client.kiwi_connection - Connexion WebSocket fermée inopinément pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:46 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:46 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:46 - WARNING - src.sdr_client.kiwi_connection - Connexion WebSocket fermée inopinément pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:46 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: wss://test.kiwisdr.com/kiwi (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:46 - INFO - src.sdr_client.kiwi_connection - Connexion WebSocket ouverte pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:46 - INFO - src.sdr_client.kiwi_connection - Tentative de reconnexion à wss://test.kiwisdr.com/kiwi (3/3)
+2025-04-14 19:22:46 - ERROR - src.sdr_client.kiwi_connection - Nombre maximal de tentatives de reconnexion atteint pour wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:46 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:46 - ERROR - src.sdr_client.kiwi_connection - Impossible de configurer la fréquence: non prêt (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:46 - ERROR - src.sdr_client.kiwi_connection - Impossible de configurer le mode: non prêt (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:46 - INFO - src.sdr_client.kiwi_connection - Connexion établie au récepteur wss://test.kiwisdr.com/kiwi
+2025-04-14 19:22:46 - ERROR - src.sdr_client.kiwi_connection - Impossible de configurer la fréquence: non prêt (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:46 - ERROR - src.sdr_client.kiwi_connection - Impossible de configurer le mode: non prêt (wss://test.kiwisdr.com/kiwi)
+2025-04-14 19:22:46 - ERROR - asyncio - Task was destroyed but it is pending!
+task: <Task pending name='Task-55' coro=<KiwiConnection._on_close.<locals>.try_reconnect() done, defined at C:\Users\antoi\Documents\Netechoppe\trackimmo-site\WEBSDRMAP\src\sdr_client\kiwi_connection.py:534> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité HIGH
+2025-04-14 19:22:46 - WARNING - src.sdr_client.sdr_client - Le récepteur Test KiwiSDR existe déjà
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Suppression du récepteur Test KiwiSDR
+2025-04-14 19:22:46 - WARNING - src.sdr_client.sdr_client - Impossible de supprimer: le récepteur NonExistentSDR n'existe pas
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR réussie
+2025-04-14 19:22:46 - ERROR - src.sdr_client.sdr_client - Le récepteur NonExistentSDR n'existe pas
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR
+2025-04-14 19:22:46 - ERROR - src.sdr_client.sdr_client - Échec de la connexion à Test KiwiSDR
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR réussie
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur Test KiwiSDR
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur Test KiwiSDR réussie
+2025-04-14 19:22:46 - ERROR - src.sdr_client.sdr_client - Le récepteur NonExistentSDR n'existe pas
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion automatique au récepteur Test KiwiSDR pour le flux audio
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR réussie
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion automatique au récepteur Test KiwiSDR pour le flux waterfall
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur Test KiwiSDR réussie
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR1 avec priorité NORMAL
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR2 avec priorité NORMAL
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1 réussie
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Démarrage du client SDR
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Arrêt du client SDR
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur KiwiSDR1
+2025-04-14 19:22:46 - WARNING - src.sdr_client.audio_stream - Le récepteur KiwiSDR1 n'est pas dans la liste des flux
+2025-04-14 19:22:46 - WARNING - root - Tentative de suppression d'un flux waterfall inexistant: KiwiSDR1
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur KiwiSDR1 réussie
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR1 avec priorité HIGH
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR2 avec priorité LOW
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1 réussie
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur Test KiwiSDR avec priorité NORMAL
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Modification de la priorité de Test KiwiSDR: NORMAL -> CRITICAL
+2025-04-14 19:22:46 - ERROR - src.sdr_client.sdr_client - Le récepteur NonExistentSDR n'existe pas
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR1 avec priorité LOW
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR2 avec priorité NORMAL
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR3 avec priorité HIGH
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1 réussie
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR2
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR2 réussie
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Déconnexion de KiwiSDR1 pour libérer des ressources pour KiwiSDR3
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur KiwiSDR1
+2025-04-14 19:22:46 - WARNING - src.sdr_client.audio_stream - Le récepteur KiwiSDR1 n'est pas dans la liste des flux
+2025-04-14 19:22:46 - WARNING - root - Tentative de suppression d'un flux waterfall inexistant: KiwiSDR1
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Déconnexion du récepteur KiwiSDR1 réussie
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR3
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR3 réussie
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR1 avec priorité HIGH
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR2 avec priorité NORMAL
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Ajout du récepteur KiwiSDR3 avec priorité LOW
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion automatique au récepteur prioritaire KiwiSDR1
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR1 réussie
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion automatique au récepteur prioritaire KiwiSDR2
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR2
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Connexion au récepteur KiwiSDR2 réussie
+2025-04-14 19:22:46 - INFO - src.sdr_client.sdr_client - Boucle de gestion des connexions arrêtée
+2025-04-14 19:22:46 - WARNING - root - Taille de ligne incorrecte: 3 vs 4 attendu
+2025-04-14 19:22:46 - ERROR - root - Erreur lors du traitement des données waterfall: a bytes-like object is required, not 'NoneType'
+2025-04-14 19:22:46 - INFO - root - Flux waterfall démarré pour test_kiwi
+2025-04-14 19:22:46 - ERROR - root - Impossible de démarrer le flux waterfall
+2025-04-14 19:22:46 - INFO - root - Flux waterfall démarré pour test_kiwi
+2025-04-14 19:22:46 - INFO - root - Flux waterfall arrêté pour test_kiwi
+2025-04-14 19:22:46 - ERROR - root - Erreur lors du traitement des données waterfall: Test error
+2025-04-14 19:22:46 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:22:46 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:22:46 - WARNING - root - Le flux waterfall pour test_kiwi existe déjà
+2025-04-14 19:22:46 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:22:46 - ERROR - root - Nombre maximum de connexions waterfall atteint (1)
+2025-04-14 19:22:46 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:22:46 - INFO - root - Flux waterfall supprimé pour test_kiwi
+2025-04-14 19:22:46 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:22:46 - INFO - root - Flux waterfall supprimé pour test_kiwi
+2025-04-14 19:22:46 - WARNING - root - Tentative de suppression d'un flux waterfall inexistant: nonexistent
+2025-04-14 19:22:46 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:22:46 - INFO - root - Flux waterfall ajouté pour test_kiwi2
+2025-04-14 19:22:46 - INFO - root - Flux waterfall ajouté pour test_kiwi
+2025-04-14 19:22:46 - INFO - root - Flux waterfall ajouté pour test_kiwi2
+2025-04-14 19:32:13 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 19:32:13 - WARNING - src.utils.config_loader - Fichier .env '.env' non trouvé, utilisation des variables d'environnement système
+2025-04-14 19:32:13 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 19:32:13 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 19:32:13 - INFO - src.__main__ - Initialisation de l'application de triangulation SDR
+2025-04-14 19:32:13 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 19:32:13 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 19:32:13 - ERROR - src.__main__ - Erreur lors de l'initialisation: 'max' is not a valid RSSIMethod
+2025-04-14 19:32:13 - ERROR - src.__main__ - Échec de l'initialisation de l'application
+2025-04-14 19:33:03 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 19:33:03 - WARNING - src.utils.config_loader - Fichier .env '.env' non trouvé, utilisation des variables d'environnement système
+2025-04-14 19:33:03 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 19:33:03 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 19:33:03 - INFO - src.__main__ - Initialisation de l'application de triangulation SDR
+2025-04-14 19:33:03 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 19:33:03 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 19:33:03 - ERROR - src.__main__ - Erreur lors de l'initialisation: RSSIComputer.__init__() got an unexpected keyword argument 'reference_level'
+2025-04-14 19:33:03 - ERROR - src.__main__ - Échec de l'initialisation de l'application
+2025-04-14 19:33:22 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 19:33:22 - WARNING - src.utils.config_loader - Fichier .env '.env' non trouvé, utilisation des variables d'environnement système
+2025-04-14 19:33:22 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 19:33:22 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 19:33:22 - INFO - src.__main__ - Initialisation de l'application de triangulation SDR
+2025-04-14 19:33:22 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 19:33:22 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 19:33:22 - ERROR - src.__main__ - Erreur lors de l'initialisation: RSSIComputer.__init__() got an unexpected keyword argument 'reference_level'
+2025-04-14 19:33:22 - ERROR - src.__main__ - Échec de l'initialisation de l'application
+2025-04-14 19:33:50 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 19:33:50 - WARNING - src.utils.config_loader - Fichier .env '.env' non trouvé, utilisation des variables d'environnement système
+2025-04-14 19:33:50 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 19:33:50 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 19:33:50 - INFO - src.__main__ - Initialisation de l'application de triangulation SDR
+2025-04-14 19:33:50 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 19:33:50 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 19:33:50 - ERROR - src.__main__ - Erreur lors de l'initialisation: Triangulator.__init__() got an unexpected keyword argument 'min_receivers'
+2025-04-14 19:33:50 - ERROR - src.__main__ - Échec de l'initialisation de l'application
+2025-04-14 19:34:33 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 19:34:33 - WARNING - src.utils.config_loader - Fichier .env '.env' non trouvé, utilisation des variables d'environnement système
+2025-04-14 19:34:33 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 19:34:33 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 19:34:33 - INFO - src.__main__ - Initialisation de l'application de triangulation SDR
+2025-04-14 19:34:33 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 19:34:33 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 19:34:33 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 19:34:33 - INFO - src.__main__ - Initialisation réussie
+2025-04-14 19:34:33 - ERROR - src.__main__ - Erreur dans l'application principale: 
+2025-04-14 19:34:33 - INFO - src.__main__ - Démarrage de l'application de triangulation SDR
+2025-04-14 19:34:33 - INFO - src.__main__ - Initialisation de l'application de triangulation SDR
+2025-04-14 19:34:33 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 19:34:33 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 19:34:33 - INFO - src.__main__ - Initialisation réussie
+2025-04-14 19:34:33 - INFO - src.__main__ - Connexion aux récepteurs SDR
+2025-04-14 19:34:33 - INFO - src.__main__ - 0/0 récepteurs connectés avec succès
+2025-04-14 19:34:33 - ERROR - src.__main__ - Aucun récepteur n'a pu être connecté
+2025-04-14 19:34:33 - INFO - src.__main__ - Nettoyage des ressources
+2025-04-14 19:34:33 - INFO - src.sdr_client.audio_stream - Arrêt de tous les flux audio
+2025-04-14 19:34:33 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 19:34:33 - INFO - src.signal_processing.detection - Détecteur réinitialisé
+2025-04-14 19:34:33 - INFO - src.data_export.data_export - Finalisation des exports en cours
+2025-04-14 19:34:33 - INFO - src.utils.performance - Pool de threads arrêté
+2025-04-14 19:34:33 - INFO - src.__main__ - Nettoyage terminé
+2025-04-14 20:39:33 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 20:39:33 - WARNING - src.utils.config_loader - Fichier .env '.env' non trouvé, utilisation des variables d'environnement système
+2025-04-14 20:39:33 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 20:39:33 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 20:39:33 - INFO - src.__main__ - Initialisation de l'application de triangulation SDR
+2025-04-14 20:39:33 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 20:39:33 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 20:39:33 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 20:39:33 - INFO - src.__main__ - Initialisation réussie
+2025-04-14 20:39:33 - ERROR - src.__main__ - Erreur dans l'application principale: 
+2025-04-14 20:39:33 - INFO - src.__main__ - Démarrage de l'application de triangulation SDR
+2025-04-14 20:39:33 - INFO - src.__main__ - Initialisation de l'application de triangulation SDR
+2025-04-14 20:39:33 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 20:39:33 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 20:39:33 - INFO - src.__main__ - Initialisation réussie
+2025-04-14 20:39:33 - INFO - src.__main__ - Connexion aux récepteurs SDR
+2025-04-14 20:39:33 - INFO - src.__main__ - 0/0 récepteurs connectés avec succès
+2025-04-14 20:39:33 - ERROR - src.__main__ - Aucun récepteur n'a pu être connecté
+2025-04-14 20:39:33 - INFO - src.__main__ - Nettoyage des ressources
+2025-04-14 20:39:33 - INFO - src.sdr_client.audio_stream - Arrêt de tous les flux audio
+2025-04-14 20:39:33 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 20:39:33 - INFO - src.signal_processing.detection - Détecteur réinitialisé
+2025-04-14 20:39:33 - INFO - src.data_export.data_export - Finalisation des exports en cours
+2025-04-14 20:39:33 - INFO - src.utils.performance - Pool de threads arrêté
+2025-04-14 20:39:33 - INFO - src.__main__ - Nettoyage terminé
+2025-04-14 20:46:01 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 20:46:01 - WARNING - src.utils.config_loader - Fichier .env '.env' non trouvé, utilisation des variables d'environnement système
+2025-04-14 20:46:01 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 20:46:01 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 20:46:01 - INFO - src.__main__ - Initialisation de l'application de triangulation SDR
+2025-04-14 20:46:01 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 20:46:01 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 20:46:01 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 20:46:01 - INFO - src.__main__ - Initialisation réussie
+2025-04-14 20:46:01 - ERROR - src.__main__ - Erreur dans l'application principale: 
+2025-04-14 20:46:01 - INFO - src.__main__ - Démarrage de l'application de triangulation SDR
+2025-04-14 20:46:01 - INFO - src.__main__ - Initialisation de l'application de triangulation SDR
+2025-04-14 20:46:01 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 20:46:01 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 20:46:01 - INFO - src.__main__ - Initialisation réussie
+2025-04-14 20:46:01 - INFO - src.__main__ - Connexion aux récepteurs SDR
+2025-04-14 20:46:01 - INFO - src.__main__ - 0/0 récepteurs connectés avec succès
+2025-04-14 20:46:01 - ERROR - src.__main__ - Aucun récepteur n'a pu être connecté
+2025-04-14 20:46:01 - INFO - src.__main__ - Nettoyage des ressources
+2025-04-14 20:46:01 - INFO - src.sdr_client.audio_stream - Arrêt de tous les flux audio
+2025-04-14 20:46:01 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 20:46:01 - INFO - src.signal_processing.detection - Détecteur réinitialisé
+2025-04-14 20:46:01 - INFO - src.data_export.data_export - Finalisation des exports en cours
+2025-04-14 20:46:01 - INFO - src.utils.performance - Pool de threads arrêté
+2025-04-14 20:46:01 - INFO - src.__main__ - Nettoyage terminé
+2025-04-14 20:51:54 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 20:51:54 - WARNING - src.utils.config_loader - Fichier .env '.env' non trouvé, utilisation des variables d'environnement système
+2025-04-14 20:51:54 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 20:51:54 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 20:51:54 - INFO - src.__main__ - Initialisation de l'application de triangulation SDR
+2025-04-14 20:51:54 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 20:51:54 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 20:51:54 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 20:51:54 - INFO - src.__main__ - Initialisation réussie
+2025-04-14 20:51:54 - ERROR - src.__main__ - Erreur dans l'application principale: 
+2025-04-14 20:51:54 - INFO - src.__main__ - Démarrage de l'application de triangulation SDR
+2025-04-14 20:51:54 - INFO - src.__main__ - Initialisation de l'application de triangulation SDR
+2025-04-14 20:51:54 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 20:51:54 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 20:51:54 - INFO - src.__main__ - Initialisation réussie
+2025-04-14 20:51:54 - INFO - src.__main__ - Connexion aux récepteurs SDR
+2025-04-14 20:51:54 - INFO - src.__main__ - 0/0 récepteurs connectés avec succès
+2025-04-14 20:51:54 - ERROR - src.__main__ - Aucun récepteur n'a pu être connecté
+2025-04-14 20:51:54 - INFO - src.__main__ - Nettoyage des ressources
+2025-04-14 20:51:54 - INFO - src.sdr_client.audio_stream - Arrêt de tous les flux audio
+2025-04-14 20:51:54 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 20:51:54 - INFO - src.signal_processing.detection - Détecteur réinitialisé
+2025-04-14 20:51:54 - INFO - src.data_export.data_export - Finalisation des exports en cours
+2025-04-14 20:51:54 - INFO - src.utils.performance - Pool de threads arrêté
+2025-04-14 20:51:54 - INFO - src.__main__ - Nettoyage terminé
+2025-04-14 21:14:35 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 21:14:35 - WARNING - src.utils.config_loader - Fichier .env '.env' non trouvé, utilisation des variables d'environnement système
+2025-04-14 21:14:35 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 21:14:35 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 21:14:35 - INFO - src.__main__ - Initialisation de l'application de triangulation SDR
+2025-04-14 21:14:35 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 21:14:35 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:14:35 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:14:35 - INFO - src.__main__ - Initialisation réussie
+2025-04-14 21:14:35 - ERROR - src.__main__ - Erreur dans l'application principale: 
+2025-04-14 21:14:35 - INFO - src.__main__ - Démarrage de l'application de triangulation SDR
+2025-04-14 21:14:35 - INFO - src.__main__ - Initialisation de l'application de triangulation SDR
+2025-04-14 21:14:35 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:14:35 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:14:35 - INFO - src.__main__ - Initialisation réussie
+2025-04-14 21:14:35 - INFO - src.__main__ - Connexion aux récepteurs SDR
+2025-04-14 21:14:35 - INFO - src.__main__ - 0/0 récepteurs connectés avec succès
+2025-04-14 21:14:35 - ERROR - src.__main__ - Aucun récepteur n'a pu être connecté
+2025-04-14 21:14:35 - INFO - src.__main__ - Nettoyage des ressources
+2025-04-14 21:14:35 - INFO - src.sdr_client.audio_stream - Arrêt de tous les flux audio
+2025-04-14 21:14:35 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 21:14:35 - INFO - src.signal_processing.detection - Détecteur réinitialisé
+2025-04-14 21:14:35 - INFO - src.data_export.data_export - Finalisation des exports en cours
+2025-04-14 21:14:35 - INFO - src.utils.performance - Pool de threads arrêté
+2025-04-14 21:14:35 - INFO - src.__main__ - Nettoyage terminé
+2025-04-14 21:18:10 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 21:18:10 - INFO - src.utils.config_loader - Variables d'environnement chargées depuis '.env'
+2025-04-14 21:18:10 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_DEBUG' appliquée à 'app.debug'
+2025-04-14 21:18:10 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_LOG_LEVEL' appliquée à 'app.log_level'
+2025-04-14 21:18:10 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_HOST' appliquée à 'server.host'
+2025-04-14 21:18:10 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_PORT' appliquée à 'server.port'
+2025-04-14 21:18:10 - DEBUG - src.utils.config_loader - Variable d'environnement 'EXPORT_PATH' appliquée à 'export.export_path'
+2025-04-14 21:18:10 - DEBUG - src.utils.config_loader - Variable d'environnement 'LOG_FILE' appliquée à 'app.log_file'
+2025-04-14 21:18:10 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 21:18:10 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 21:18:10 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:18:10 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 21:18:10 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:18:10 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:18:10 - INFO - src.main - Initialisation réussie
+2025-04-14 21:18:10 - ERROR - src.main - Erreur dans l'application principale: 
+2025-04-14 21:18:10 - INFO - src.main - Démarrage de l'application de triangulation SDR
+2025-04-14 21:18:10 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:18:10 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:18:10 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:18:10 - INFO - src.main - Initialisation réussie
+2025-04-14 21:18:10 - INFO - src.main - Connexion aux récepteurs SDR
+2025-04-14 21:18:10 - INFO - src.main - 0/0 récepteurs connectés avec succès
+2025-04-14 21:18:10 - ERROR - src.main - Aucun récepteur n'a pu être connecté
+2025-04-14 21:18:10 - INFO - src.main - Nettoyage des ressources
+2025-04-14 21:18:10 - INFO - src.sdr_client.audio_stream - Arrêt de tous les flux audio
+2025-04-14 21:18:10 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 21:18:10 - INFO - src.signal_processing.detection - Détecteur réinitialisé
+2025-04-14 21:18:10 - DEBUG - src.signal_processing.rssi - Réinitialisation du calculateur RSSI
+2025-04-14 21:18:10 - INFO - src.data_export.data_export - Finalisation des exports en cours
+2025-04-14 21:18:10 - INFO - src.utils.performance - Pool de threads arrêté
+2025-04-14 21:18:10 - INFO - src.main - Nettoyage terminé
+2025-04-14 21:18:46 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 21:18:46 - INFO - src.utils.config_loader - Variables d'environnement chargées depuis '.env'
+2025-04-14 21:18:46 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_DEBUG' appliquée à 'app.debug'
+2025-04-14 21:18:46 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_LOG_LEVEL' appliquée à 'app.log_level'
+2025-04-14 21:18:46 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_HOST' appliquée à 'server.host'
+2025-04-14 21:18:46 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_PORT' appliquée à 'server.port'
+2025-04-14 21:18:46 - DEBUG - src.utils.config_loader - Variable d'environnement 'EXPORT_PATH' appliquée à 'export.export_path'
+2025-04-14 21:18:46 - DEBUG - src.utils.config_loader - Variable d'environnement 'LOG_FILE' appliquée à 'app.log_file'
+2025-04-14 21:18:46 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 21:18:46 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 21:18:46 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:18:46 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 21:18:46 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:18:46 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:18:46 - INFO - src.main - Initialisation réussie
+2025-04-14 21:18:46 - ERROR - src.main - Erreur dans l'application principale: 
+2025-04-14 21:18:46 - INFO - src.main - Démarrage de l'application de triangulation SDR
+2025-04-14 21:18:46 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:18:46 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:18:46 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:18:46 - INFO - src.main - Initialisation réussie
+2025-04-14 21:18:46 - INFO - src.main - Connexion aux récepteurs SDR
+2025-04-14 21:18:46 - INFO - src.main - 0/0 récepteurs connectés avec succès
+2025-04-14 21:18:46 - ERROR - src.main - Aucun récepteur n'a pu être connecté
+2025-04-14 21:18:46 - INFO - src.main - Nettoyage des ressources
+2025-04-14 21:18:46 - INFO - src.sdr_client.audio_stream - Arrêt de tous les flux audio
+2025-04-14 21:18:46 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 21:18:46 - INFO - src.signal_processing.detection - Détecteur réinitialisé
+2025-04-14 21:18:46 - DEBUG - src.signal_processing.rssi - Réinitialisation du calculateur RSSI
+2025-04-14 21:18:46 - INFO - src.data_export.data_export - Finalisation des exports en cours
+2025-04-14 21:18:46 - INFO - src.utils.performance - Pool de threads arrêté
+2025-04-14 21:18:46 - INFO - src.main - Nettoyage terminé
+2025-04-14 21:21:12 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 21:21:12 - INFO - src.utils.config_loader - Variables d'environnement chargées depuis '.env'
+2025-04-14 21:21:12 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_DEBUG' appliquée à 'app.debug'
+2025-04-14 21:21:12 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_LOG_LEVEL' appliquée à 'app.log_level'
+2025-04-14 21:21:12 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_HOST' appliquée à 'server.host'
+2025-04-14 21:21:12 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_PORT' appliquée à 'server.port'
+2025-04-14 21:21:12 - DEBUG - src.utils.config_loader - Variable d'environnement 'EXPORT_PATH' appliquée à 'export.export_path'
+2025-04-14 21:21:12 - DEBUG - src.utils.config_loader - Variable d'environnement 'LOG_FILE' appliquée à 'app.log_file'
+2025-04-14 21:21:12 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 21:21:12 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 21:21:12 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:21:12 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 21:21:12 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:21:12 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:21:12 - INFO - src.main - Initialisation réussie
+2025-04-14 21:21:12 - ERROR - src.main - Erreur dans l'application principale: 
+2025-04-14 21:21:12 - INFO - src.main - Démarrage de l'application de triangulation SDR
+2025-04-14 21:21:12 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:21:12 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:21:12 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:21:12 - INFO - src.main - Initialisation réussie
+2025-04-14 21:21:12 - INFO - src.main - Connexion aux récepteurs SDR
+2025-04-14 21:21:12 - INFO - src.main - 0/0 récepteurs connectés avec succès
+2025-04-14 21:21:12 - ERROR - src.main - Aucun récepteur n'a pu être connecté
+2025-04-14 21:21:12 - INFO - src.main - Nettoyage des ressources
+2025-04-14 21:21:12 - INFO - src.sdr_client.audio_stream - Arrêt de tous les flux audio
+2025-04-14 21:21:12 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 21:21:12 - INFO - src.signal_processing.detection - Détecteur réinitialisé
+2025-04-14 21:21:12 - DEBUG - src.signal_processing.rssi - Réinitialisation du calculateur RSSI
+2025-04-14 21:21:12 - INFO - src.data_export.data_export - Finalisation des exports en cours
+2025-04-14 21:21:12 - INFO - src.utils.performance - Pool de threads arrêté
+2025-04-14 21:21:12 - INFO - src.main - Nettoyage terminé
+2025-04-14 21:21:32 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 21:21:32 - INFO - src.utils.config_loader - Variables d'environnement chargées depuis '.env'
+2025-04-14 21:21:32 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_DEBUG' appliquée à 'app.debug'
+2025-04-14 21:21:32 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_LOG_LEVEL' appliquée à 'app.log_level'
+2025-04-14 21:21:32 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_HOST' appliquée à 'server.host'
+2025-04-14 21:21:32 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_PORT' appliquée à 'server.port'
+2025-04-14 21:21:32 - DEBUG - src.utils.config_loader - Variable d'environnement 'EXPORT_PATH' appliquée à 'export.export_path'
+2025-04-14 21:21:32 - DEBUG - src.utils.config_loader - Variable d'environnement 'LOG_FILE' appliquée à 'app.log_file'
+2025-04-14 21:21:32 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 21:21:32 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 21:21:32 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:21:32 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 21:21:32 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:21:32 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:21:32 - INFO - src.main - Initialisation réussie
+2025-04-14 21:21:32 - ERROR - src.main - Erreur dans l'application principale: 
+2025-04-14 21:21:32 - INFO - src.main - Démarrage de l'application de triangulation SDR
+2025-04-14 21:21:32 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:21:32 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:21:32 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:21:32 - INFO - src.main - Initialisation réussie
+2025-04-14 21:21:32 - INFO - src.main - Connexion aux récepteurs SDR
+2025-04-14 21:21:32 - INFO - src.main - 0/0 récepteurs connectés avec succès
+2025-04-14 21:21:32 - ERROR - src.main - Aucun récepteur n'a pu être connecté
+2025-04-14 21:21:32 - INFO - src.main - Nettoyage des ressources
+2025-04-14 21:21:32 - INFO - src.sdr_client.audio_stream - Arrêt de tous les flux audio
+2025-04-14 21:21:32 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 21:21:32 - INFO - src.signal_processing.detection - Détecteur réinitialisé
+2025-04-14 21:21:32 - DEBUG - src.signal_processing.rssi - Réinitialisation du calculateur RSSI
+2025-04-14 21:21:32 - INFO - src.data_export.data_export - Finalisation des exports en cours
+2025-04-14 21:21:32 - INFO - src.utils.performance - Pool de threads arrêté
+2025-04-14 21:21:32 - INFO - src.main - Nettoyage terminé
+2025-04-14 21:22:09 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 21:22:09 - INFO - src.utils.config_loader - Variables d'environnement chargées depuis '.env'
+2025-04-14 21:22:09 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_DEBUG' appliquée à 'app.debug'
+2025-04-14 21:22:09 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_LOG_LEVEL' appliquée à 'app.log_level'
+2025-04-14 21:22:09 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_HOST' appliquée à 'server.host'
+2025-04-14 21:22:09 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_PORT' appliquée à 'server.port'
+2025-04-14 21:22:09 - DEBUG - src.utils.config_loader - Variable d'environnement 'EXPORT_PATH' appliquée à 'export.export_path'
+2025-04-14 21:22:09 - DEBUG - src.utils.config_loader - Variable d'environnement 'LOG_FILE' appliquée à 'app.log_file'
+2025-04-14 21:22:09 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 21:22:09 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 21:22:09 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:22:09 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 21:22:09 - INFO - src.main - Ajout du récepteur F4EPP Guipry-Messac, France (wss://21924.proxy.kiwisdr.com:8073/kiwi)
+2025-04-14 21:22:09 - INFO - src.main - Ajout du récepteur PA4HJH, Netherlands (wss://pa4hjh.ddns.net:8073/kiwi)
+2025-04-14 21:22:09 - INFO - src.main - Ajout du récepteur IW2KPL, Bergamo, Italy (wss://www.dxcluster.world:8073/kiwi)
+2025-04-14 21:22:09 - INFO - src.main - Ajout du récepteur Siekierki Wielkie, Poland (wss://s.kalinowski.edu.pl:8073/kiwi)
+2025-04-14 21:22:09 - INFO - src.main - Ajout du récepteur DL0HGN/DQ1V, Hagenow, Germany (wss://kiwisdr.dl0hgn.ipv64.net:80/kiwi)
+2025-04-14 21:22:09 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:22:09 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:22:09 - INFO - src.main - Initialisation réussie
+2025-04-14 21:22:09 - ERROR - src.main - Erreur dans l'application principale: 
+2025-04-14 21:22:09 - INFO - src.main - Démarrage de l'application de triangulation SDR
+2025-04-14 21:22:09 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:22:09 - INFO - src.main - Ajout du récepteur F4EPP Guipry-Messac, France (wss://21924.proxy.kiwisdr.com:8073/kiwi)
+2025-04-14 21:22:09 - INFO - src.main - Ajout du récepteur PA4HJH, Netherlands (wss://pa4hjh.ddns.net:8073/kiwi)
+2025-04-14 21:22:09 - INFO - src.main - Ajout du récepteur IW2KPL, Bergamo, Italy (wss://www.dxcluster.world:8073/kiwi)
+2025-04-14 21:22:09 - INFO - src.main - Ajout du récepteur Siekierki Wielkie, Poland (wss://s.kalinowski.edu.pl:8073/kiwi)
+2025-04-14 21:22:09 - INFO - src.main - Ajout du récepteur DL0HGN/DQ1V, Hagenow, Germany (wss://kiwisdr.dl0hgn.ipv64.net:80/kiwi)
+2025-04-14 21:22:09 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:22:09 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:22:09 - INFO - src.main - Initialisation réussie
+2025-04-14 21:22:09 - INFO - src.main - Connexion aux récepteurs SDR
+2025-04-14 21:23:43 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 21:23:43 - INFO - src.utils.config_loader - Variables d'environnement chargées depuis '.env'
+2025-04-14 21:23:43 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_DEBUG' appliquée à 'app.debug'
+2025-04-14 21:23:43 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_LOG_LEVEL' appliquée à 'app.log_level'
+2025-04-14 21:23:43 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_HOST' appliquée à 'server.host'
+2025-04-14 21:23:43 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_PORT' appliquée à 'server.port'
+2025-04-14 21:23:43 - DEBUG - src.utils.config_loader - Variable d'environnement 'EXPORT_PATH' appliquée à 'export.export_path'
+2025-04-14 21:23:43 - DEBUG - src.utils.config_loader - Variable d'environnement 'LOG_FILE' appliquée à 'app.log_file'
+2025-04-14 21:23:43 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 21:23:43 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 21:23:43 - INFO - src.main - Mode démo activé - Utilisation de récepteurs simulés
+2025-04-14 21:23:43 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:23:43 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 21:23:43 - INFO - src.main - Ajout du récepteur F4EPP Guipry-Messac, France (wss://21924.proxy.kiwisdr.com:8073/kiwi)
+2025-04-14 21:23:43 - INFO - src.main - Ajout du récepteur PA4HJH, Netherlands (wss://pa4hjh.ddns.net:8073/kiwi)
+2025-04-14 21:23:43 - INFO - src.main - Ajout du récepteur IW2KPL, Bergamo, Italy (wss://www.dxcluster.world:8073/kiwi)
+2025-04-14 21:23:43 - INFO - src.main - Ajout du récepteur Siekierki Wielkie, Poland (wss://s.kalinowski.edu.pl:8073/kiwi)
+2025-04-14 21:23:43 - INFO - src.main - Ajout du récepteur DL0HGN/DQ1V, Hagenow, Germany (wss://kiwisdr.dl0hgn.ipv64.net:80/kiwi)
+2025-04-14 21:23:43 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:23:43 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:23:43 - INFO - src.main - Initialisation réussie
+2025-04-14 21:23:43 - ERROR - src.main - Erreur dans l'application principale: 
+2025-04-14 21:23:43 - INFO - src.main - Démarrage de l'application de triangulation SDR
+2025-04-14 21:23:43 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:23:43 - INFO - src.main - Ajout du récepteur F4EPP Guipry-Messac, France (wss://21924.proxy.kiwisdr.com:8073/kiwi)
+2025-04-14 21:23:43 - INFO - src.main - Ajout du récepteur PA4HJH, Netherlands (wss://pa4hjh.ddns.net:8073/kiwi)
+2025-04-14 21:23:43 - INFO - src.main - Ajout du récepteur IW2KPL, Bergamo, Italy (wss://www.dxcluster.world:8073/kiwi)
+2025-04-14 21:23:43 - INFO - src.main - Ajout du récepteur Siekierki Wielkie, Poland (wss://s.kalinowski.edu.pl:8073/kiwi)
+2025-04-14 21:23:43 - INFO - src.main - Ajout du récepteur DL0HGN/DQ1V, Hagenow, Germany (wss://kiwisdr.dl0hgn.ipv64.net:80/kiwi)
+2025-04-14 21:23:43 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:23:43 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:23:43 - INFO - src.main - Initialisation réussie
+2025-04-14 21:23:43 - INFO - src.main - Connexion aux récepteurs SDR
+2025-04-14 21:23:43 - INFO - src.main - Mode démo - Simulation de connexions réussies
+2025-04-14 21:23:43 - INFO - src.main - Mode démo: 5/5 récepteurs simulés connectés
+2025-04-14 21:23:43 - INFO - src.main - Démarrage des flux audio et waterfall
+2025-04-14 21:23:43 - INFO - src.main - Mode démo - Simulation de démarrage des flux
+2025-04-14 21:23:43 - INFO - src.main - Mode démo: 5 flux audio et 5 flux waterfall simulés
+2025-04-14 21:23:43 - INFO - src.main - Application démarrée avec succès
+2025-04-14 21:24:24 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 21:24:24 - INFO - src.utils.config_loader - Variables d'environnement chargées depuis '.env'
+2025-04-14 21:24:24 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_DEBUG' appliquée à 'app.debug'
+2025-04-14 21:24:24 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_LOG_LEVEL' appliquée à 'app.log_level'
+2025-04-14 21:24:24 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_HOST' appliquée à 'server.host'
+2025-04-14 21:24:24 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_PORT' appliquée à 'server.port'
+2025-04-14 21:24:24 - DEBUG - src.utils.config_loader - Variable d'environnement 'EXPORT_PATH' appliquée à 'export.export_path'
+2025-04-14 21:24:24 - DEBUG - src.utils.config_loader - Variable d'environnement 'LOG_FILE' appliquée à 'app.log_file'
+2025-04-14 21:24:24 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 21:24:24 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 21:24:24 - INFO - src.main - Mode démo activé - Utilisation de récepteurs simulés
+2025-04-14 21:24:24 - INFO - src.main - Démarrage de l'application de triangulation SDR
+2025-04-14 21:24:24 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:24:24 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 21:24:24 - INFO - src.main - Ajout du récepteur F4EPP Guipry-Messac, France (wss://21924.proxy.kiwisdr.com:8073/kiwi)
+2025-04-14 21:24:24 - INFO - src.main - Ajout du récepteur PA4HJH, Netherlands (wss://pa4hjh.ddns.net:8073/kiwi)
+2025-04-14 21:24:24 - INFO - src.main - Ajout du récepteur IW2KPL, Bergamo, Italy (wss://www.dxcluster.world:8073/kiwi)
+2025-04-14 21:24:24 - INFO - src.main - Ajout du récepteur Siekierki Wielkie, Poland (wss://s.kalinowski.edu.pl:8073/kiwi)
+2025-04-14 21:24:24 - INFO - src.main - Ajout du récepteur DL0HGN/DQ1V, Hagenow, Germany (wss://kiwisdr.dl0hgn.ipv64.net:80/kiwi)
+2025-04-14 21:24:24 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:24:24 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:24:24 - INFO - src.main - Initialisation réussie
+2025-04-14 21:24:24 - INFO - src.main - Connexion aux récepteurs SDR
+2025-04-14 21:24:24 - INFO - src.main - Mode démo - Simulation de connexions réussies
+2025-04-14 21:24:24 - INFO - src.main - Mode démo: 5/5 récepteurs simulés connectés
+2025-04-14 21:24:24 - INFO - src.main - Démarrage des flux audio et waterfall
+2025-04-14 21:24:24 - INFO - src.main - Mode démo - Simulation de démarrage des flux
+2025-04-14 21:24:24 - INFO - src.main - Mode démo: 5 flux audio et 5 flux waterfall simulés
+2025-04-14 21:24:24 - INFO - src.main - Application démarrée avec succès
+2025-04-14 21:24:27 - INFO - src.main - Démarrage du serveur web sur localhost:5000
+2025-04-14 21:24:27 - INFO - werkzeug -  * Restarting with stat
+2025-04-14 21:24:30 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 21:24:30 - INFO - src.utils.config_loader - Variables d'environnement chargées depuis '.env'
+2025-04-14 21:24:30 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_DEBUG' appliquée à 'app.debug'
+2025-04-14 21:24:30 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_LOG_LEVEL' appliquée à 'app.log_level'
+2025-04-14 21:24:30 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_HOST' appliquée à 'server.host'
+2025-04-14 21:24:30 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_PORT' appliquée à 'server.port'
+2025-04-14 21:24:30 - DEBUG - src.utils.config_loader - Variable d'environnement 'EXPORT_PATH' appliquée à 'export.export_path'
+2025-04-14 21:24:30 - DEBUG - src.utils.config_loader - Variable d'environnement 'LOG_FILE' appliquée à 'app.log_file'
+2025-04-14 21:24:30 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 21:24:30 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 21:24:30 - INFO - src.main - Mode démo activé - Utilisation de récepteurs simulés
+2025-04-14 21:24:30 - INFO - src.main - Démarrage de l'application de triangulation SDR
+2025-04-14 21:24:30 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:24:30 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 21:24:30 - INFO - src.main - Ajout du récepteur F4EPP Guipry-Messac, France (wss://21924.proxy.kiwisdr.com:8073/kiwi)
+2025-04-14 21:24:30 - INFO - src.main - Ajout du récepteur PA4HJH, Netherlands (wss://pa4hjh.ddns.net:8073/kiwi)
+2025-04-14 21:24:30 - INFO - src.main - Ajout du récepteur IW2KPL, Bergamo, Italy (wss://www.dxcluster.world:8073/kiwi)
+2025-04-14 21:24:30 - INFO - src.main - Ajout du récepteur Siekierki Wielkie, Poland (wss://s.kalinowski.edu.pl:8073/kiwi)
+2025-04-14 21:24:30 - INFO - src.main - Ajout du récepteur DL0HGN/DQ1V, Hagenow, Germany (wss://kiwisdr.dl0hgn.ipv64.net:80/kiwi)
+2025-04-14 21:24:30 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:24:30 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:24:30 - INFO - src.main - Initialisation réussie
+2025-04-14 21:24:30 - INFO - src.main - Connexion aux récepteurs SDR
+2025-04-14 21:24:30 - INFO - src.main - Mode démo - Simulation de connexions réussies
+2025-04-14 21:24:30 - INFO - src.main - Mode démo: 5/5 récepteurs simulés connectés
+2025-04-14 21:24:30 - INFO - src.main - Démarrage des flux audio et waterfall
+2025-04-14 21:24:30 - INFO - src.main - Mode démo - Simulation de démarrage des flux
+2025-04-14 21:24:30 - INFO - src.main - Mode démo: 5 flux audio et 5 flux waterfall simulés
+2025-04-14 21:24:30 - INFO - src.main - Application démarrée avec succès
+2025-04-14 21:24:33 - INFO - src.main - Démarrage du serveur web sur localhost:5000
+2025-04-14 21:24:33 - WARNING - werkzeug -  * Debugger is active!
+2025-04-14 21:24:33 - INFO - werkzeug -  * Debugger PIN: 131-884-220
+2025-04-14 21:29:48 - INFO - werkzeug -  * Detected change in 'C:\\Users\\antoi\\Documents\\Netechoppe\\WEBSDRMAP\\src\\main.py', reloading
+2025-04-14 21:29:48 - INFO - src.main - Arrêt de l'application de triangulation SDR
+2025-04-14 21:29:48 - INFO - src.main - Démarrage de la boucle principale
+2025-04-14 21:29:48 - INFO - src.main - Fin de la boucle principale
+2025-04-14 21:29:49 - INFO - src.main - Arrêt de l'application de triangulation SDR
+2025-04-14 21:29:49 - INFO - src.main - Démarrage de la boucle principale
+2025-04-14 21:29:49 - INFO - src.main - Fin de la boucle principale
+2025-04-14 21:30:02 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 21:30:02 - INFO - src.utils.config_loader - Variables d'environnement chargées depuis '.env'
+2025-04-14 21:30:02 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_DEBUG' appliquée à 'app.debug'
+2025-04-14 21:30:02 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_LOG_LEVEL' appliquée à 'app.log_level'
+2025-04-14 21:30:02 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_HOST' appliquée à 'server.host'
+2025-04-14 21:30:02 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_PORT' appliquée à 'server.port'
+2025-04-14 21:30:02 - DEBUG - src.utils.config_loader - Variable d'environnement 'EXPORT_PATH' appliquée à 'export.export_path'
+2025-04-14 21:30:02 - DEBUG - src.utils.config_loader - Variable d'environnement 'LOG_FILE' appliquée à 'app.log_file'
+2025-04-14 21:30:02 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 21:30:02 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 21:30:02 - INFO - src.main - Mode démo activé - Utilisation de récepteurs simulés
+2025-04-14 21:30:02 - INFO - src.main - Démarrage de l'application de triangulation SDR
+2025-04-14 21:30:02 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:30:02 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 21:30:02 - INFO - src.main - Ajout du récepteur F4EPP Guipry-Messac, France (wss://21924.proxy.kiwisdr.com:8073/kiwi)
+2025-04-14 21:30:02 - INFO - src.main - Ajout du récepteur PA4HJH, Netherlands (wss://pa4hjh.ddns.net:8073/kiwi)
+2025-04-14 21:30:02 - INFO - src.main - Ajout du récepteur IW2KPL, Bergamo, Italy (wss://www.dxcluster.world:8073/kiwi)
+2025-04-14 21:30:02 - INFO - src.main - Ajout du récepteur Siekierki Wielkie, Poland (wss://s.kalinowski.edu.pl:8073/kiwi)
+2025-04-14 21:30:02 - INFO - src.main - Ajout du récepteur DL0HGN/DQ1V, Hagenow, Germany (wss://kiwisdr.dl0hgn.ipv64.net:80/kiwi)
+2025-04-14 21:30:02 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:30:02 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:30:02 - INFO - src.main - Initialisation réussie
+2025-04-14 21:30:02 - INFO - src.main - Connexion aux récepteurs SDR
+2025-04-14 21:30:02 - INFO - src.main - Mode démo - Simulation de connexions réussies
+2025-04-14 21:30:02 - INFO - src.main - Mode démo: 5/5 récepteurs simulés connectés
+2025-04-14 21:30:02 - INFO - src.main - Démarrage des flux audio et waterfall
+2025-04-14 21:30:02 - INFO - src.main - Mode démo - Simulation de démarrage des flux
+2025-04-14 21:30:02 - INFO - src.main - Mode démo: 5 flux audio et 5 flux waterfall simulés
+2025-04-14 21:30:02 - INFO - src.main - Application démarrée avec succès
+2025-04-14 21:30:03 - INFO - src.main - Démarrage du serveur web sur localhost:5000
+2025-04-14 21:30:03 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-04-14 21:30:03 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-04-14 21:30:03 - INFO - werkzeug -  * Restarting with stat
+2025-04-14 21:30:07 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 21:30:07 - INFO - src.utils.config_loader - Variables d'environnement chargées depuis '.env'
+2025-04-14 21:30:07 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_DEBUG' appliquée à 'app.debug'
+2025-04-14 21:30:07 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_LOG_LEVEL' appliquée à 'app.log_level'
+2025-04-14 21:30:07 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_HOST' appliquée à 'server.host'
+2025-04-14 21:30:07 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_PORT' appliquée à 'server.port'
+2025-04-14 21:30:07 - DEBUG - src.utils.config_loader - Variable d'environnement 'EXPORT_PATH' appliquée à 'export.export_path'
+2025-04-14 21:30:07 - DEBUG - src.utils.config_loader - Variable d'environnement 'LOG_FILE' appliquée à 'app.log_file'
+2025-04-14 21:30:07 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 21:30:07 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 21:30:07 - INFO - src.main - Mode démo activé - Utilisation de récepteurs simulés
+2025-04-14 21:30:07 - INFO - src.main - Démarrage de l'application de triangulation SDR
+2025-04-14 21:30:07 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:30:07 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 21:30:07 - INFO - src.main - Ajout du récepteur F4EPP Guipry-Messac, France (wss://21924.proxy.kiwisdr.com:8073/kiwi)
+2025-04-14 21:30:07 - INFO - src.main - Ajout du récepteur PA4HJH, Netherlands (wss://pa4hjh.ddns.net:8073/kiwi)
+2025-04-14 21:30:07 - INFO - src.main - Ajout du récepteur IW2KPL, Bergamo, Italy (wss://www.dxcluster.world:8073/kiwi)
+2025-04-14 21:30:07 - INFO - src.main - Ajout du récepteur Siekierki Wielkie, Poland (wss://s.kalinowski.edu.pl:8073/kiwi)
+2025-04-14 21:30:07 - INFO - src.main - Ajout du récepteur DL0HGN/DQ1V, Hagenow, Germany (wss://kiwisdr.dl0hgn.ipv64.net:80/kiwi)
+2025-04-14 21:30:07 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:30:07 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:30:07 - INFO - src.main - Initialisation réussie
+2025-04-14 21:30:07 - INFO - src.main - Connexion aux récepteurs SDR
+2025-04-14 21:30:07 - INFO - src.main - Mode démo - Simulation de connexions réussies
+2025-04-14 21:30:07 - INFO - src.main - Mode démo: 5/5 récepteurs simulés connectés
+2025-04-14 21:30:07 - INFO - src.main - Démarrage des flux audio et waterfall
+2025-04-14 21:30:07 - INFO - src.main - Mode démo - Simulation de démarrage des flux
+2025-04-14 21:30:07 - INFO - src.main - Mode démo: 5 flux audio et 5 flux waterfall simulés
+2025-04-14 21:30:07 - INFO - src.main - Application démarrée avec succès
+2025-04-14 21:30:08 - INFO - src.main - Démarrage du serveur web sur localhost:5000
+2025-04-14 21:30:08 - WARNING - werkzeug -  * Debugger is active!
+2025-04-14 21:30:08 - INFO - werkzeug -  * Debugger PIN: 468-802-151
+2025-04-14 21:33:33 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:33:33] "GET / HTTP/1.1" 200 -
+2025-04-14 21:33:34 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:33:34] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-14 21:33:34 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:33:34] "GET /static/js/waterfall.js HTTP/1.1" 200 -
+2025-04-14 21:33:34 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:33:34] "GET /static/js/audio-control.js HTTP/1.1" 200 -
+2025-04-14 21:33:34 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:33:34] "GET /static/js/frequency-filter.js HTTP/1.1" 200 -
+2025-04-14 21:33:34 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:33:34] "GET /static/js/annotation.js HTTP/1.1" 200 -
+2025-04-14 21:33:34 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:33:34] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-04-14 21:35:15 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 21:35:15 - INFO - src.utils.config_loader - Variables d'environnement chargées depuis '.env'
+2025-04-14 21:35:15 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_DEBUG' appliquée à 'app.debug'
+2025-04-14 21:35:15 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_LOG_LEVEL' appliquée à 'app.log_level'
+2025-04-14 21:35:15 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_HOST' appliquée à 'server.host'
+2025-04-14 21:35:15 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_PORT' appliquée à 'server.port'
+2025-04-14 21:35:15 - DEBUG - src.utils.config_loader - Variable d'environnement 'EXPORT_PATH' appliquée à 'export.export_path'
+2025-04-14 21:35:15 - DEBUG - src.utils.config_loader - Variable d'environnement 'LOG_FILE' appliquée à 'app.log_file'
+2025-04-14 21:35:15 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 21:35:15 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 21:35:15 - INFO - src.main - Mode démo activé - Utilisation de récepteurs simulés
+2025-04-14 21:35:15 - INFO - src.main - Démarrage de l'application de triangulation SDR
+2025-04-14 21:35:15 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:35:15 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 21:35:15 - INFO - src.main - Ajout du récepteur F4EPP Guipry-Messac, France (wss://21924.proxy.kiwisdr.com:8073/kiwi)
+2025-04-14 21:35:15 - INFO - src.main - Ajout du récepteur PA4HJH, Netherlands (wss://pa4hjh.ddns.net:8073/kiwi)
+2025-04-14 21:35:15 - INFO - src.main - Ajout du récepteur IW2KPL, Bergamo, Italy (wss://www.dxcluster.world:8073/kiwi)
+2025-04-14 21:35:15 - INFO - src.main - Ajout du récepteur Siekierki Wielkie, Poland (wss://s.kalinowski.edu.pl:8073/kiwi)
+2025-04-14 21:35:15 - INFO - src.main - Ajout du récepteur DL0HGN/DQ1V, Hagenow, Germany (wss://kiwisdr.dl0hgn.ipv64.net:80/kiwi)
+2025-04-14 21:35:15 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:35:15 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:35:15 - INFO - src.main - Initialisation réussie
+2025-04-14 21:35:15 - INFO - src.main - Connexion aux récepteurs SDR
+2025-04-14 21:35:15 - INFO - src.main - Mode démo - Simulation de connexions réussies
+2025-04-14 21:35:15 - INFO - src.main - Mode démo: 5/5 récepteurs simulés connectés
+2025-04-14 21:35:15 - INFO - src.main - Démarrage des flux audio et waterfall
+2025-04-14 21:35:15 - INFO - src.main - Mode démo - Simulation de démarrage des flux
+2025-04-14 21:35:15 - INFO - src.main - Mode démo: 5 flux audio et 5 flux waterfall simulés
+2025-04-14 21:35:15 - INFO - src.main - Application démarrée avec succès
+2025-04-14 21:35:15 - INFO - src.main - Démarrage du serveur web sur localhost:5000
+2025-04-14 21:35:15 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-04-14 21:35:15 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-04-14 21:35:15 - INFO - werkzeug -  * Restarting with stat
+2025-04-14 21:35:19 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 21:35:19 - INFO - src.utils.config_loader - Variables d'environnement chargées depuis '.env'
+2025-04-14 21:35:19 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_DEBUG' appliquée à 'app.debug'
+2025-04-14 21:35:19 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_LOG_LEVEL' appliquée à 'app.log_level'
+2025-04-14 21:35:19 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_HOST' appliquée à 'server.host'
+2025-04-14 21:35:19 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_PORT' appliquée à 'server.port'
+2025-04-14 21:35:19 - DEBUG - src.utils.config_loader - Variable d'environnement 'EXPORT_PATH' appliquée à 'export.export_path'
+2025-04-14 21:35:19 - DEBUG - src.utils.config_loader - Variable d'environnement 'LOG_FILE' appliquée à 'app.log_file'
+2025-04-14 21:35:19 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 21:35:19 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 21:35:19 - INFO - src.main - Mode démo activé - Utilisation de récepteurs simulés
+2025-04-14 21:35:19 - INFO - src.main - Démarrage de l'application de triangulation SDR
+2025-04-14 21:35:19 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:35:19 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 21:35:19 - INFO - src.main - Ajout du récepteur F4EPP Guipry-Messac, France (wss://21924.proxy.kiwisdr.com:8073/kiwi)
+2025-04-14 21:35:19 - INFO - src.main - Ajout du récepteur PA4HJH, Netherlands (wss://pa4hjh.ddns.net:8073/kiwi)
+2025-04-14 21:35:19 - INFO - src.main - Ajout du récepteur IW2KPL, Bergamo, Italy (wss://www.dxcluster.world:8073/kiwi)
+2025-04-14 21:35:19 - INFO - src.main - Ajout du récepteur Siekierki Wielkie, Poland (wss://s.kalinowski.edu.pl:8073/kiwi)
+2025-04-14 21:35:19 - INFO - src.main - Ajout du récepteur DL0HGN/DQ1V, Hagenow, Germany (wss://kiwisdr.dl0hgn.ipv64.net:80/kiwi)
+2025-04-14 21:35:19 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:35:19 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:35:19 - INFO - src.main - Initialisation réussie
+2025-04-14 21:35:19 - INFO - src.main - Connexion aux récepteurs SDR
+2025-04-14 21:35:19 - INFO - src.main - Mode démo - Simulation de connexions réussies
+2025-04-14 21:35:19 - INFO - src.main - Mode démo: 5/5 récepteurs simulés connectés
+2025-04-14 21:35:19 - INFO - src.main - Démarrage des flux audio et waterfall
+2025-04-14 21:35:19 - INFO - src.main - Mode démo - Simulation de démarrage des flux
+2025-04-14 21:35:19 - INFO - src.main - Mode démo: 5 flux audio et 5 flux waterfall simulés
+2025-04-14 21:35:19 - INFO - src.main - Application démarrée avec succès
+2025-04-14 21:35:19 - INFO - src.main - Démarrage du serveur web sur localhost:5000
+2025-04-14 21:35:19 - WARNING - werkzeug -  * Debugger is active!
+2025-04-14 21:35:19 - INFO - werkzeug -  * Debugger PIN: 468-802-151
+2025-04-14 21:35:26 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:35:26] "GET / HTTP/1.1" 200 -
+2025-04-14 21:35:26 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:35:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-14 21:35:27 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:35:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-14 21:35:27 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:35:27] "[36mGET /static/js/audio-control.js HTTP/1.1[0m" 304 -
+2025-04-14 21:35:27 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:35:27] "[36mGET /static/js/annotation.js HTTP/1.1[0m" 304 -
+2025-04-14 21:35:27 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:35:27] "[36mGET /static/js/waterfall.js HTTP/1.1[0m" 304 -
+2025-04-14 21:35:27 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:35:27] "[36mGET /static/js/frequency-filter.js HTTP/1.1[0m" 304 -
+2025-04-14 21:35:57 - INFO - src.main - Arrêt de l'application de triangulation SDR
+2025-04-14 21:35:57 - INFO - src.main - Démarrage de la boucle principale
+2025-04-14 21:35:57 - INFO - src.main - Fin de la boucle principale
+2025-04-14 21:35:57 - INFO - src.main - Arrêt de l'application de triangulation SDR
+2025-04-14 21:35:57 - INFO - src.main - Démarrage de la boucle principale
+2025-04-14 21:35:57 - INFO - src.main - Fin de la boucle principale
+2025-04-14 21:38:56 - INFO - werkzeug -  * Detected change in 'C:\\Users\\antoi\\Documents\\Netechoppe\\WEBSDRMAP\\run_dev_server.py', reloading
+2025-04-14 21:38:56 - INFO - src.main - Arrêt de l'application de triangulation SDR
+2025-04-14 21:38:56 - INFO - src.main - Démarrage de la boucle principale
+2025-04-14 21:38:56 - INFO - src.main - Fin de la boucle principale
+2025-04-14 21:38:56 - INFO - src.main - Arrêt de l'application de triangulation SDR
+2025-04-14 21:38:56 - INFO - src.main - Démarrage de la boucle principale
+2025-04-14 21:38:56 - INFO - src.main - Fin de la boucle principale
+2025-04-14 21:41:13 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 21:41:13 - INFO - src.utils.config_loader - Variables d'environnement chargées depuis '.env'
+2025-04-14 21:41:13 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_DEBUG' appliquée à 'app.debug'
+2025-04-14 21:41:13 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_LOG_LEVEL' appliquée à 'app.log_level'
+2025-04-14 21:41:13 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_HOST' appliquée à 'server.host'
+2025-04-14 21:41:13 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_PORT' appliquée à 'server.port'
+2025-04-14 21:41:13 - DEBUG - src.utils.config_loader - Variable d'environnement 'EXPORT_PATH' appliquée à 'export.export_path'
+2025-04-14 21:41:13 - DEBUG - src.utils.config_loader - Variable d'environnement 'LOG_FILE' appliquée à 'app.log_file'
+2025-04-14 21:41:13 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 21:41:13 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 21:41:13 - INFO - src.main - Démarrage de l'application de triangulation SDR
+2025-04-14 21:41:13 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:41:13 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 21:41:13 - INFO - src.main - Ajout du récepteur F4EPP Guipry-Messac, France (wss://21924.proxy.kiwisdr.com:8073/kiwi)
+2025-04-14 21:41:13 - INFO - src.main - Ajout du récepteur PA4HJH, Netherlands (wss://pa4hjh.ddns.net:8073/kiwi)
+2025-04-14 21:41:13 - INFO - src.main - Ajout du récepteur IW2KPL, Bergamo, Italy (wss://www.dxcluster.world:8073/kiwi)
+2025-04-14 21:41:13 - INFO - src.main - Ajout du récepteur Siekierki Wielkie, Poland (wss://s.kalinowski.edu.pl:8073/kiwi)
+2025-04-14 21:41:13 - INFO - src.main - Ajout du récepteur DL0HGN/DQ1V, Hagenow, Germany (wss://kiwisdr.dl0hgn.ipv64.net:80/kiwi)
+2025-04-14 21:41:13 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:41:13 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:41:13 - INFO - src.main - Initialisation réussie
+2025-04-14 21:41:13 - INFO - src.main - Connexion aux récepteurs SDR
+2025-04-14 21:41:13 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: F4EPP Guipry-Messac, France (wss://21924.proxy.kiwisdr.com:8073/kiwi)
+2025-04-14 21:41:13 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: PA4HJH, Netherlands (wss://pa4hjh.ddns.net:8073/kiwi)
+2025-04-14 21:41:13 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: IW2KPL, Bergamo, Italy (wss://www.dxcluster.world:8073/kiwi)
+2025-04-14 21:41:13 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: Siekierki Wielkie, Poland (wss://s.kalinowski.edu.pl:8073/kiwi)
+2025-04-14 21:41:13 - INFO - src.sdr_client.kiwi_connection - Connexion au récepteur KiwiSDR: DL0HGN/DQ1V, Hagenow, Germany (wss://kiwisdr.dl0hgn.ipv64.net:80/kiwi)
+2025-04-14 21:41:14 - ERROR - src.sdr_client.kiwi_connection - Erreur WebSocket pour PA4HJH, Netherlands: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 21:41:14 - ERROR - src.sdr_client.kiwi_connection - Erreur WebSocket pour IW2KPL, Bergamo, Italy: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 21:41:14 - ERROR - websocket - [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000) - goodbye
+2025-04-14 21:41:14 - ERROR - websocket - [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000) - goodbye
+2025-04-14 21:41:14 - ERROR - src.sdr_client.kiwi_connection - Erreur WebSocket pour DL0HGN/DQ1V, Hagenow, Germany: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 21:41:14 - WARNING - src.sdr_client.kiwi_connection - Connexion WebSocket fermée inopinément pour PA4HJH, Netherlands
+2025-04-14 21:41:14 - WARNING - src.sdr_client.kiwi_connection - Connexion WebSocket fermée inopinément pour IW2KPL, Bergamo, Italy
+2025-04-14 21:41:14 - ERROR - websocket - [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000) - goodbye
+2025-04-14 21:41:14 - ERROR - websocket - error from callback <bound method KiwiConnection._on_close of <src.sdr_client.kiwi_connection.KiwiConnection object at 0x00000247C9163E60>>: no running event loop
+2025-04-14 21:41:14 - ERROR - websocket - error from callback <bound method KiwiConnection._on_close of <src.sdr_client.kiwi_connection.KiwiConnection object at 0x00000247C9163F50>>: no running event loop
+2025-04-14 21:41:14 - WARNING - src.sdr_client.kiwi_connection - Connexion WebSocket fermée inopinément pour DL0HGN/DQ1V, Hagenow, Germany
+2025-04-14 21:41:14 - ERROR - src.sdr_client.kiwi_connection - Erreur WebSocket pour PA4HJH, Netherlands: no running event loop
+2025-04-14 21:41:14 - ERROR - src.sdr_client.kiwi_connection - Erreur WebSocket pour IW2KPL, Bergamo, Italy: no running event loop
+2025-04-14 21:41:14 - ERROR - websocket - error from callback <bound method KiwiConnection._on_close of <src.sdr_client.kiwi_connection.KiwiConnection object at 0x00000247C9163EF0>>: no running event loop
+2025-04-14 21:41:14 - ERROR - src.sdr_client.kiwi_connection - Erreur WebSocket pour DL0HGN/DQ1V, Hagenow, Germany: no running event loop
+2025-04-14 21:41:14 - ERROR - src.sdr_client.kiwi_connection - Erreur WebSocket pour F4EPP Guipry-Messac, France: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 21:41:14 - ERROR - websocket - [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000) - goodbye
+2025-04-14 21:41:14 - WARNING - src.sdr_client.kiwi_connection - Connexion WebSocket fermée inopinément pour F4EPP Guipry-Messac, France
+2025-04-14 21:41:14 - ERROR - websocket - error from callback <bound method KiwiConnection._on_close of <src.sdr_client.kiwi_connection.KiwiConnection object at 0x00000247C9163FB0>>: no running event loop
+2025-04-14 21:41:14 - ERROR - src.sdr_client.kiwi_connection - Erreur WebSocket pour F4EPP Guipry-Messac, France: no running event loop
+2025-04-14 21:41:14 - ERROR - src.sdr_client.kiwi_connection - Échec de la connexion à F4EPP Guipry-Messac, France: no running event loop
+2025-04-14 21:41:14 - ERROR - src.main - Échec de la connexion à F4EPP Guipry-Messac, France
+2025-04-14 21:41:14 - ERROR - src.sdr_client.kiwi_connection - Échec de la connexion à PA4HJH, Netherlands: no running event loop
+2025-04-14 21:41:14 - ERROR - src.main - Échec de la connexion à PA4HJH, Netherlands
+2025-04-14 21:41:14 - ERROR - src.sdr_client.kiwi_connection - Échec de la connexion à DL0HGN/DQ1V, Hagenow, Germany: no running event loop
+2025-04-14 21:41:14 - ERROR - src.main - Échec de la connexion à DL0HGN/DQ1V, Hagenow, Germany
+2025-04-14 21:41:14 - ERROR - src.sdr_client.kiwi_connection - Échec de la connexion à IW2KPL, Bergamo, Italy: no running event loop
+2025-04-14 21:41:14 - ERROR - src.main - Échec de la connexion à IW2KPL, Bergamo, Italy
+2025-04-14 21:41:14 - ERROR - src.sdr_client.kiwi_connection - Erreur WebSocket pour Siekierki Wielkie, Poland: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 21:41:14 - ERROR - websocket - [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000) - goodbye
+2025-04-14 21:41:14 - WARNING - src.sdr_client.kiwi_connection - Connexion WebSocket fermée inopinément pour Siekierki Wielkie, Poland
+2025-04-14 21:41:14 - ERROR - websocket - error from callback <bound method KiwiConnection._on_close of <src.sdr_client.kiwi_connection.KiwiConnection object at 0x00000247C9163FE0>>: no running event loop
+2025-04-14 21:41:14 - ERROR - src.sdr_client.kiwi_connection - Erreur WebSocket pour Siekierki Wielkie, Poland: no running event loop
+2025-04-14 21:41:14 - ERROR - src.sdr_client.kiwi_connection - Échec de la connexion à Siekierki Wielkie, Poland: no running event loop
+2025-04-14 21:41:14 - ERROR - src.main - Échec de la connexion à Siekierki Wielkie, Poland
+2025-04-14 21:41:14 - INFO - src.main - 0/5 récepteurs connectés avec succès
+2025-04-14 21:41:14 - ERROR - src.main - Aucun récepteur n'a pu être connecté
+2025-04-14 21:41:14 - INFO - src.main - Nettoyage des ressources
+2025-04-14 21:41:14 - INFO - src.sdr_client.audio_stream - Arrêt de tous les flux audio
+2025-04-14 21:41:14 - INFO - src.utils.performance - Pool de processus arrêté
+2025-04-14 21:41:14 - INFO - src.signal_processing.detection - Détecteur réinitialisé
+2025-04-14 21:41:14 - DEBUG - src.signal_processing.rssi - Réinitialisation du calculateur RSSI
+2025-04-14 21:41:14 - INFO - src.data_export.data_export - Finalisation des exports en cours
+2025-04-14 21:41:14 - INFO - src.utils.performance - Pool de threads arrêté
+2025-04-14 21:41:14 - INFO - src.main - Nettoyage terminé
+2025-04-14 21:41:14 - ERROR - src.main - Échec du démarrage de l'application
+2025-04-14 21:42:16 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 21:42:16 - INFO - src.utils.config_loader - Variables d'environnement chargées depuis '.env'
+2025-04-14 21:42:16 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_DEBUG' appliquée à 'app.debug'
+2025-04-14 21:42:16 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_LOG_LEVEL' appliquée à 'app.log_level'
+2025-04-14 21:42:16 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_HOST' appliquée à 'server.host'
+2025-04-14 21:42:16 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_PORT' appliquée à 'server.port'
+2025-04-14 21:42:16 - DEBUG - src.utils.config_loader - Variable d'environnement 'EXPORT_PATH' appliquée à 'export.export_path'
+2025-04-14 21:42:16 - DEBUG - src.utils.config_loader - Variable d'environnement 'LOG_FILE' appliquée à 'app.log_file'
+2025-04-14 21:42:16 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 21:42:16 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 21:42:16 - INFO - src.main - Mode démo activé - Utilisation de récepteurs simulés
+2025-04-14 21:42:16 - INFO - src.main - Démarrage de l'application de triangulation SDR
+2025-04-14 21:42:16 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:42:16 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 21:42:16 - INFO - src.main - Ajout du récepteur F4EPP Guipry-Messac, France (wss://21924.proxy.kiwisdr.com:8073/kiwi)
+2025-04-14 21:42:16 - INFO - src.main - Ajout du récepteur PA4HJH, Netherlands (wss://pa4hjh.ddns.net:8073/kiwi)
+2025-04-14 21:42:16 - INFO - src.main - Ajout du récepteur IW2KPL, Bergamo, Italy (wss://www.dxcluster.world:8073/kiwi)
+2025-04-14 21:42:16 - INFO - src.main - Ajout du récepteur Siekierki Wielkie, Poland (wss://s.kalinowski.edu.pl:8073/kiwi)
+2025-04-14 21:42:16 - INFO - src.main - Ajout du récepteur DL0HGN/DQ1V, Hagenow, Germany (wss://kiwisdr.dl0hgn.ipv64.net:80/kiwi)
+2025-04-14 21:42:16 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:42:16 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:42:16 - INFO - src.main - Initialisation réussie
+2025-04-14 21:42:16 - INFO - src.main - Connexion aux récepteurs SDR
+2025-04-14 21:42:16 - INFO - src.main - Mode démo - Simulation de connexions réussies
+2025-04-14 21:42:16 - INFO - src.main - Mode démo: 5/5 récepteurs simulés connectés
+2025-04-14 21:42:16 - INFO - src.main - Démarrage des flux audio et waterfall
+2025-04-14 21:42:16 - INFO - src.main - Mode démo - Simulation de démarrage des flux
+2025-04-14 21:42:16 - INFO - src.main - Mode démo: 5 flux audio et 5 flux waterfall simulés
+2025-04-14 21:42:16 - INFO - src.main - Application démarrée avec succès
+2025-04-14 21:42:16 - INFO - src.main - Démarrage du serveur web sur localhost:5000
+2025-04-14 21:42:16 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-04-14 21:42:16 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-04-14 21:42:16 - INFO - werkzeug -  * Restarting with stat
+2025-04-14 21:42:18 - INFO - src.utils.config_loader - Configuration chargée depuis 'config\default_config.yaml'
+2025-04-14 21:42:18 - INFO - src.utils.config_loader - Variables d'environnement chargées depuis '.env'
+2025-04-14 21:42:18 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_DEBUG' appliquée à 'app.debug'
+2025-04-14 21:42:18 - DEBUG - src.utils.config_loader - Variable d'environnement 'APP_LOG_LEVEL' appliquée à 'app.log_level'
+2025-04-14 21:42:18 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_HOST' appliquée à 'server.host'
+2025-04-14 21:42:18 - DEBUG - src.utils.config_loader - Variable d'environnement 'SERVER_PORT' appliquée à 'server.port'
+2025-04-14 21:42:18 - DEBUG - src.utils.config_loader - Variable d'environnement 'EXPORT_PATH' appliquée à 'export.export_path'
+2025-04-14 21:42:18 - DEBUG - src.utils.config_loader - Variable d'environnement 'LOG_FILE' appliquée à 'app.log_file'
+2025-04-14 21:42:18 - INFO - src.utils.config_loader - Configuration chargée et validée avec succès
+2025-04-14 21:42:18 - INFO - src.utils.performance - Pool de processus démarré avec 12 workers
+2025-04-14 21:42:18 - INFO - src.main - Mode démo activé - Utilisation de récepteurs simulés
+2025-04-14 21:42:18 - INFO - src.main - Démarrage de l'application de triangulation SDR
+2025-04-14 21:42:18 - INFO - src.main - Initialisation de l'application de triangulation SDR
+2025-04-14 21:42:18 - INFO - src.utils.performance - Pool de threads démarré avec 32 workers
+2025-04-14 21:42:18 - INFO - src.main - Ajout du récepteur F4EPP Guipry-Messac, France (wss://21924.proxy.kiwisdr.com:8073/kiwi)
+2025-04-14 21:42:18 - INFO - src.main - Ajout du récepteur PA4HJH, Netherlands (wss://pa4hjh.ddns.net:8073/kiwi)
+2025-04-14 21:42:18 - INFO - src.main - Ajout du récepteur IW2KPL, Bergamo, Italy (wss://www.dxcluster.world:8073/kiwi)
+2025-04-14 21:42:18 - INFO - src.main - Ajout du récepteur Siekierki Wielkie, Poland (wss://s.kalinowski.edu.pl:8073/kiwi)
+2025-04-14 21:42:18 - INFO - src.main - Ajout du récepteur DL0HGN/DQ1V, Hagenow, Germany (wss://kiwisdr.dl0hgn.ipv64.net:80/kiwi)
+2025-04-14 21:42:18 - INFO - src.signal_processing.detection - Détecteur de signaux initialisé avec seuil: -80.0 dB, SNR min: 10.0 dB
+2025-04-14 21:42:18 - INFO - src.signal_processing.triangulation - Triangulateur initialisé
+2025-04-14 21:42:18 - INFO - src.main - Initialisation réussie
+2025-04-14 21:42:18 - INFO - src.main - Connexion aux récepteurs SDR
+2025-04-14 21:42:18 - INFO - src.main - Mode démo - Simulation de connexions réussies
+2025-04-14 21:42:18 - INFO - src.main - Mode démo: 5/5 récepteurs simulés connectés
+2025-04-14 21:42:18 - INFO - src.main - Démarrage des flux audio et waterfall
+2025-04-14 21:42:18 - INFO - src.main - Mode démo - Simulation de démarrage des flux
+2025-04-14 21:42:18 - INFO - src.main - Mode démo: 5 flux audio et 5 flux waterfall simulés
+2025-04-14 21:42:18 - INFO - src.main - Application démarrée avec succès
+2025-04-14 21:42:18 - INFO - src.main - Démarrage du serveur web sur localhost:5000
+2025-04-14 21:42:18 - WARNING - werkzeug -  * Debugger is active!
+2025-04-14 21:42:18 - INFO - werkzeug -  * Debugger PIN: 468-802-151
+2025-04-14 21:44:15 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:44:15] "GET / HTTP/1.1" 200 -
+2025-04-14 21:44:15 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:44:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-14 21:44:15 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:44:15] "[36mGET /static/js/annotation.js HTTP/1.1[0m" 304 -
+2025-04-14 21:44:15 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:44:15] "[36mGET /static/js/frequency-filter.js HTTP/1.1[0m" 304 -
+2025-04-14 21:44:15 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:44:15] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-04-14 21:44:15 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:44:15] "[36mGET /static/js/audio-control.js HTTP/1.1[0m" 304 -
+2025-04-14 21:44:15 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:44:15] "[36mGET /static/js/waterfall.js HTTP/1.1[0m" 304 -
+2025-04-14 21:48:13 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:13] "GET / HTTP/1.1" 200 -
+2025-04-14 21:48:13 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-14 21:48:13 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:13] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-04-14 21:48:13 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:13] "[36mGET /static/js/annotation.js HTTP/1.1[0m" 304 -
+2025-04-14 21:48:13 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:13] "[36mGET /static/js/audio-control.js HTTP/1.1[0m" 304 -
+2025-04-14 21:48:13 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:13] "[36mGET /static/js/waterfall.js HTTP/1.1[0m" 304 -
+2025-04-14 21:48:13 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:13] "[36mGET /static/js/frequency-filter.js HTTP/1.1[0m" 304 -
+2025-04-14 21:48:20 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:20] "GET / HTTP/1.1" 200 -
+2025-04-14 21:48:20 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-14 21:48:21 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:21] "[36mGET /static/js/waterfall.js HTTP/1.1[0m" 304 -
+2025-04-14 21:48:21 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:21] "[36mGET /static/js/audio-control.js HTTP/1.1[0m" 304 -
+2025-04-14 21:48:21 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:21] "[36mGET /static/js/frequency-filter.js HTTP/1.1[0m" 304 -
+2025-04-14 21:48:21 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:21] "[36mGET /static/js/annotation.js HTTP/1.1[0m" 304 -
+2025-04-14 21:48:21 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-04-14 21:48:22 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:22] "GET / HTTP/1.1" 200 -
+2025-04-14 21:48:23 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-14 21:48:23 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:23] "GET /static/js/waterfall.js HTTP/1.1" 200 -
+2025-04-14 21:48:23 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:23] "GET /static/js/audio-control.js HTTP/1.1" 200 -
+2025-04-14 21:48:23 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:23] "GET /static/js/frequency-filter.js HTTP/1.1" 200 -
+2025-04-14 21:48:23 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:23] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-04-14 21:48:23 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:23] "GET /static/js/annotation.js HTTP/1.1" 200 -
+2025-04-14 21:48:23 - INFO - werkzeug - 127.0.0.1 - - [14/Apr/2025 21:48:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-14 21:48:26 - INFO - src.main - Arrêt de l'application de triangulation SDR
+2025-04-14 21:48:26 - INFO - src.main - Démarrage de la boucle principale
+2025-04-14 21:48:26 - INFO - src.main - Fin de la boucle principale
+2025-04-14 21:48:26 - INFO - src.main - Ajout du récepteur Récepteur Démo (Paris) (wss://demo.example.com/kiwi)
+2025-04-14 21:48:27 - INFO - src.main - Arrêt de l'application de triangulation SDR
+2025-04-14 21:48:27 - INFO - src.main - Démarrage de la boucle principale
+2025-04-14 21:48:27 - INFO - src.main - Fin de la boucle principale
+2025-04-14 21:48:27 - INFO - src.main - Ajout du récepteur Récepteur Démo (Paris) (wss://demo.example.com/kiwi)
