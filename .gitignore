@@ -1,10 +1,11 @@
-   *.pyc
-   .env
-   __pycache__/
-   .pytest_cache/
-   .vscode/
-   .idea/
-   .env.local
-   .env.development.local
-   .env.test.local
-   .env.production.local
+*.pyc
+.env
+*__pycache__/
+.pytest_cache/
+.vscode/
+.idea/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+venv/

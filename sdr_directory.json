@@ -1,0 +1,102 @@
+[
+  {
+    "url": "http://twente.kiwisdr.com:8073/",
+    "name": "KiwiSDR Twente",
+    "type": "kiwisdr",
+    "lat": 52.2387,
+    "lon": 6.8518,
+    "users_connected": 20,
+    "users_limit": 50,
+    "status": "online"
+  },
+  {
+    "url": "http://tokyo.kiwisdr.com:8073/",
+    "name": "KiwiSDR Tokyo",
+    "type": "kiwisdr",
+    "lat": 35.6762,
+    "lon": 139.6503,
+    "users_connected": 15,
+    "users_limit": 40,
+    "status": "online"
+  },
+  {
+    "url": "http://sydney.kiwisdr.com:8073/",
+    "name": "KiwiSDR Sydney",
+    "type": "kiwisdr",
+    "lat": -33.8688,
+    "lon": 151.2093,
+    "users_connected": 10,
+    "users_limit": 30,
+    "status": "online"
+  },
+  {
+    "url": "http://london.kiwisdr.com:8073/",
+    "name": "KiwiSDR London",
+    "type": "kiwisdr",
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "users_connected": 12,
+    "users_limit": 35,
+    "status": "online"
+  },
+  {
+    "url": "http://newyork.kiwisdr.com:8073/",
+    "name": "KiwiSDR New York",
+    "type": "kiwisdr",
+    "lat": 40.7128,
+    "lon": -74.006,
+    "users_connected": 18,
+    "users_limit": 45,
+    "status": "online"
+  },
+  {
+    "url": "http://websdr.ewi.utwente.nl:8901/",
+    "name": "Twente WebSDR",
+    "type": "websdr",
+    "lat": 52.2387,
+    "lon": 6.8518,
+    "users_connected": 0,
+    "users_limit": 0,
+    "status": "online"
+  },
+  {
+    "url": "http://websdr.tue.nl:8901/",
+    "name": "University of Eindhoven WebSDR",
+    "type": "websdr",
+    "lat": 40.4237,
+    "lon": -86.9212,
+    "users_connected": 0,
+    "users_limit": 0,
+    "status": "online"
+  },
+  {
+    "url": "http://websdr.he.swiss:8901/",
+    "name": "Swiss WebSDR",
+    "type": "websdr",
+    "lat": 0,
+    "lon": 0,
+    "users_connected": 0,
+    "users_limit": 0,
+    "status": "online"
+  },
+  {
+    "url": "http://websdr.norway.com:8901/",
+    "name": "Norway WebSDR",
+    "type": "websdr",
+    "lat": 60.472,
+    "lon": 8.4689,
+    "users_connected": 0,
+    "users_limit": 0,
+    "status": "online"
+  },
+  {
+    "url": "http://websdr.london.uk:8901/",
+    "name": "UK WebSDR London",
+    "type": "websdr",
+    "lat": 55.3781,
+    "lon": -3.436,
+    "users_connected": 0,
+    "users_limit": 0,
+    "status": "online"
+  }
+]

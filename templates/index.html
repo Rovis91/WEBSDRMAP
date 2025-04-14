@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDR Web Simple</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a73e8;
+            --secondary-color: #4285f4;
+            --accent-color: #34a853;
+            --dark-bg: #202124;
+            --light-bg: #fff;
+            --text-light: #e8eaed;
+            --text-dark: #202124;
+            --success: #34a853;
+            --warning: #fbbc04;
+            --error: #ea4335;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--light-bg);
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s;
+        }
+
+        body.dark-mode {
+            background-color: var(--dark-bg);
+            color: var(--text-light);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: var(--primary-color);
+            color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 20px;
+            padding: 20px;
+            height: calc(100vh - 60px);
+        }
+
+        @media (max-width: 768px) {
+            main {
+                grid-template-columns: 1fr;
+                height: auto;
+            }
+        }
+
+        .sidebar {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+            height: 100%;
+            overflow-y: auto;
+        }
+
+        .dark-mode .sidebar {
+            background-color: #2d2d2d;
+        }
+
+        .receiver-list {
+            margin-bottom: 20px;
+        }
+
+        .receiver-item {
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .dark-mode .receiver-item {
+            background-color: #3c3c3c;
+        }
+
+        .receiver-item:hover {
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            transform: translateY(-2px);
+        }
+
+        .receiver-item.active {
+            border-left: 4px solid var(--primary-color);
+            background-color: rgba(25, 103, 210, 0.1);
+        }
+
+        .dark-mode .receiver-item.active {
+            background-color: rgba(66, 133, 244, 0.2);
+        }
+
+        .control-panel {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 15px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+        }
+
+        .dark-mode .control-panel {
+            background-color: #2d2d2d;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 8px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .dark-mode input[type="number"],
+        .dark-mode select {
+            background-color: #3c3c3c;
+            color: var(--text-light);
+            border-color: #555;
+        }
+
+        button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .viewer {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+        }
+
+        .waterfall-container {
+            flex: 1;
+            background-color: #1e1e1e;
+            position: relative;
+            overflow: hidden;
+        }
+
+        canvas#waterfall {
+            width: 100%;
+            height: 100%;
+            image-rendering: pixelated;
+        }
+
+        .audio-controls {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .dark-mode .audio-controls {
+            background-color: #2d2d2d;
+            border-top-color: #444;
+        }
+
+        .volume-control {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+        }
+
+        .status {
+            margin-left: auto;
+            font-size: 14px;
+            color: var(--text-dark);
+        }
+
+        .dark-mode .status {
+            color: var(--text-light);
+        }
+
+        .status.connected {
+            color: var(--success);
+        }
+
+        .status.connecting {
+            color: var(--warning);
+        }
+
+        .status.disconnected {
+            color: var(--error);
+        }
+
+        .theme-switch {
+            display: flex;
+            align-items: center;
+            margin-left: 15px;
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 40px;
+            height: 20px;
+            margin-left: 8px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 20px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 16px;
+            width: 16px;
+            left: 2px;
+            bottom: 2px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        input:checked + .slider {
+            background-color: var(--primary-color);
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(20px);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #connection-error {
+            color: var(--error);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid var(--error);
+            border-radius: 4px;
+            background-color: rgba(234, 67, 53, 0.1);
+            display: none;
+        }
+
+        .dark-mode #connection-error {
+            background-color: rgba(234, 67, 53, 0.2);
+        }
+
+        /* Spinner pour les chargements */
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: var(--primary-color);
+            animation: spin 1s ease-in-out infinite;
+            margin-right: 10px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SDR Web Simple</h1>
+        <div class="theme-switch">
+            <span>Mode sombre</span>
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </header>
+
+    <main>
+        <div class="sidebar">
+            <h2>Récepteurs disponibles</h2>
+            <div id="connection-error">
+                Erreur de connexion au serveur. <button id="reconnect-btn">Reconnecter</button>
+            </div>
+            <div id="receiver-list" class="receiver-list">
+                <div class="loading"></div> Chargement des récepteurs...
+            </div>
+
+            <div class="control-panel">
+                <h3>Contrôle du récepteur</h3>
+                <div class="form-group">
+                    <label for="frequency">Fréquence (kHz)</label>
+                    <input type="number" id="frequency" step="1" min="0" max="30000" value="10000" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="mode">Mode</label>
+                    <select id="mode" disabled>
+                        <option value="am">AM</option>
+                        <option value="lsb">LSB</option>
+                        <option value="usb">USB</option>
+                        <option value="cw">CW</option>
+                        <option value="nfm">NFM</option>
+                        <option value="iq">IQ</option>
+                    </select>
+                </div>
+                <button id="tune-btn" disabled>Appliquer</button>
+            </div>
+        </div>
+
+        <div class="viewer">
+            <div class="waterfall-container">
+                <canvas id="waterfall" width="1024" height="600"></canvas>
+            </div>
+            <div class="audio-controls">
+                <div class="volume-control">
+                    <label for="volume">Volume:</label>
+                    <input type="range" id="volume" min="0" max="1" step="0.1" value="0.5">
+                </div>
+                <div class="status disconnected" id="status">Non connecté</div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script>
+        // Configuration de base
+        const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        let socket = null;
+        let selectedReceiver = null;
+        let currentFrequency = 10000; // kHz
+        let currentMode = 'am';
+        let isConnected = false;
+        let reconnectAttempts = 0;
+        let maxReconnectAttempts = 5;
+        let reconnectTimeout = null;
+        
+        // Cache pour les éléments DOM fréquemment utilisés
+        const elements = {
+            receiverList: document.getElementById('receiver-list'),
+            frequencyInput: document.getElementById('frequency'),
+            modeSelect: document.getElementById('mode'),
+            tuneBtn: document.getElementById('tune-btn'),
+            statusDisplay: document.getElementById('status'),
+            waterfall: document.getElementById('waterfall'),
+            volumeControl: document.getElementById('volume'),
+            themeToggle: document.getElementById('theme-toggle'),
+            connectionError: document.getElementById('connection-error'),
+            reconnectBtn: document.getElementById('reconnect-btn')
+        };
+        
+        // Contexte de dessin du waterfall
+        const waterfallCtx = elements.waterfall.getContext('2d');
+        
+        // Initialisation de Socket.IO
+        function initSocket() {
+            // Mise à jour de l'interface avant la connexion
+            updateStatus('connecting');
+            
+            // Création de la connexion WebSocket
+            socket = io({
+                reconnection: true,
+                reconnectionAttempts: 3,
+                reconnectionDelay: 1000,
+                reconnectionDelayMax: 5000,
+                timeout: 10000
+            });
+            
+            // Événement de connexion réussie
+            socket.on('connect', () => {
+                console.log('Connecté au serveur WebSocket');
+                isConnected = true;
+                reconnectAttempts = 0;
+                elements.connectionError.style.display = 'none';
+                loadReceivers();
+            });
+            
+            // Événement de déconnexion
+            socket.on('disconnect', () => {
+                console.log('Déconnecté du serveur WebSocket');
+                isConnected = false;
+                updateStatus('disconnected');
+                disableControls();
+                
+                // Pas de reconnexion automatique ici, on laisse Socket.IO gérer cela
+            });
+            
+            // Événement d'erreur de connexion
+            socket.on('connect_error', (error) => {
+                console.error('Erreur de connexion WebSocket:', error);
+                reconnectAttempts++;
+                
+                if (reconnectAttempts >= maxReconnectAttempts) {
+                    console.log('Nombre maximal de tentatives de reconnexion atteint');
+                    elements.connectionError.style.display = 'block';
+                }
+            });
+            
+            // Événement de réception des données audio
+            socket.on('audio_data', (data) => {
+                if (!isConnected || data.id !== selectedReceiver) return;
+                
+                try {
+                    // Conversion des données hexadécimales en tableau d'octets
+                    const bytes = new Uint8Array(data.data.match(/.{1,2}/g).map(byte => parseInt(byte, 16)));
+                    processAudioData(bytes);
+                } catch (e) {
+                    console.error('Erreur lors du traitement des données audio:', e);
+                }
+            });
+            
+            // Événement de réception des données waterfall
+            socket.on('waterfall_data', (data) => {
+                if (!isConnected || data.id !== selectedReceiver) return;
+                
+                try {
+                    // Conversion des données hexadécimales en tableau d'octets
+                    const bytes = new Uint8Array(data.data.match(/.{1,2}/g).map(byte => parseInt(byte, 16)));
+                    processWaterfallData(bytes);
+                } catch (e) {
+                    console.error('Erreur lors du traitement des données waterfall:', e);
+                }
+            });
+            
+            // Événement d'erreur du serveur
+            socket.on('error', (data) => {
+                console.error('Erreur reçue du serveur:', data.message);
+                alert('Erreur: ' + data.message);
+            });
+        }
+        
+        // Chargement de la liste des récepteurs
+        function loadReceivers() {
+            fetch('/api/receivers')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Erreur lors de la récupération des récepteurs');
+                    }
+                    return response.json();
+                })
+                .then(receivers => {
+                    renderReceiverList(receivers);
+                })
+                .catch(error => {
+                    console.error('Erreur:', error);
+                    elements.receiverList.innerHTML = `
+                        <div class="error">Erreur lors du chargement des récepteurs</div>
+                    `;
+                });
+        }
+        
+        // Affichage de la liste des récepteurs
+        function renderReceiverList(receivers) {
+            if (!receivers || receivers.length === 0) {
+                elements.receiverList.innerHTML = '<div>Aucun récepteur disponible</div>';
+                return;
+            }
+            
+            const html = receivers.map(receiver => `
+                <div class="receiver-item" data-id="${receiver.id}">
+                    <strong>${receiver.name}</strong>
+                </div>
+            `).join('');
+            
+            elements.receiverList.innerHTML = html;
+            
+            // Ajout des écouteurs d'événements aux éléments de la liste
+            document.querySelectorAll('.receiver-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    selectReceiver(item.dataset.id);
+                });
+            });
+        }
+        
+        // Sélection d'un récepteur
+        function selectReceiver(receiverId) {
+            console.log('Sélection du récepteur:', receiverId);
+            
+            // Mise à jour de l'interface
+            document.querySelectorAll('.receiver-item').forEach(item => {
+                item.classList.remove('active');
+                if (item.dataset.id === receiverId) {
+                    item.classList.add('active');
+                }
+            });
+            
+            // Mise à jour de l'état
+            selectedReceiver = receiverId;
+            
+            // Activation des contrôles
+            enableControls();
+            updateStatus('connected');
+            
+            // Reset du canvas du waterfall
+            waterfallCtx.fillStyle = '#000';
+            waterfallCtx.fillRect(0, 0, elements.waterfall.width, elements.waterfall.height);
+        }
+        
+        // Activation des contrôles
+        function enableControls() {
+            elements.frequencyInput.disabled = false;
+            elements.modeSelect.disabled = false;
+            elements.tuneBtn.disabled = false;
+        }
+        
+        // Désactivation des contrôles
+        function disableControls() {
+            elements.frequencyInput.disabled = true;
+            elements.modeSelect.disabled = true;
+            elements.tuneBtn.disabled = true;
+        }
+        
+        // Mise à jour du statut de connexion
+        function updateStatus(status) {
+            elements.statusDisplay.className = 'status ' + status;
+            
+            switch (status) {
+                case 'connected':
+                    elements.statusDisplay.textContent = 'Connecté';
+                    break;
+                case 'connecting':
+                    elements.statusDisplay.textContent = 'Connexion en cours...';
+                    break;
+                case 'disconnected':
+                    elements.statusDisplay.textContent = 'Déconnecté';
+                    break;
+            }
+        }
+        
+        // Traitement des données audio
+        function processAudioData(bytes) {
+            // Création d'un tampon audio
+            const buffer = audioContext.createBuffer(1, bytes.length / 2, 12000);
+            const channelData = buffer.getChannelData(0);
+            
+            // Convertir les octets en échantillons audio (-1 à 1)
+            for (let i = 0; i < bytes.length / 2; i++) {
+                const sample = (bytes[i*2] + (bytes[i*2+1] << 8)) / 32768.0;
+                channelData[i] = sample;
+            }
+            
+            // Lecture du tampon audio
+            const source = audioContext.createBufferSource();
+            source.buffer = buffer;
+            
+            // Contrôle du volume
+            const gainNode = audioContext.createGain();
+            gainNode.gain.value = elements.volumeControl.value;
+            
+            // Connexion des nœuds audio
+            source.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            // Lecture
+            source.start();
+        }
+        
+        // Variables pour le waterfall
+        let waterfallImage = null;
+        let waterfallPosition = 0;
+        
+        // Initialisation du tampon d'image pour le waterfall
+        function initWaterfallImage() {
+            // Création d'une image pour le waterfall
+            waterfallImage = waterfallCtx.createImageData(elements.waterfall.width, elements.waterfall.height);
+            
+            // Initialisation avec des pixels noirs
+            for (let i = 0; i < waterfallImage.data.length; i += 4) {
+                waterfallImage.data[i] = 0;       // R
+                waterfallImage.data[i + 1] = 0;   // G
+                waterfallImage.data[i + 2] = 0;   // B
+                waterfallImage.data[i + 3] = 255; // A
+            }
+            
+            // Application de l'image
+            waterfallCtx.putImageData(waterfallImage, 0, 0);
+        }
+        
+        // Colorisation des données du spectre pour le waterfall
+        function colorizeSpectrum(value) {
+            // Valeur entre 0 et 255, normalisée
+            const normalized = Math.max(0, Math.min(1, value / 255));
+            
+            // Palette de couleurs: bleu -> cyan -> vert -> jaune -> rouge -> blanc
+            let r, g, b;
+            
+            if (normalized < 0.2) {
+                // Bleu -> Cyan
+                const t = normalized / 0.2;
+                r = 0;
+                g = Math.floor(255 * t);
+                b = 255;
+            } else if (normalized < 0.4) {
+                // Cyan -> Vert
+                const t = (normalized - 0.2) / 0.2;
+                r = 0;
+                g = 255;
+                b = Math.floor(255 * (1 - t));
+            } else if (normalized < 0.6) {
+                // Vert -> Jaune
+                const t = (normalized - 0.4) / 0.2;
+                r = Math.floor(255 * t);
+                g = 255;
+                b = 0;
+            } else if (normalized < 0.8) {
+                // Jaune -> Rouge
+                const t = (normalized - 0.6) / 0.2;
+                r = 255;
+                g = Math.floor(255 * (1 - t));
+                b = 0;
+            } else {
+                // Rouge -> Blanc
+                const t = (normalized - 0.8) / 0.2;
+                r = 255;
+                g = Math.floor(255 * t);
+                b = Math.floor(255 * t);
+            }
+            
+            return { r, g, b };
+        }
+        
+        // Traitement des données waterfall
+        function processWaterfallData(bytes) {
+            if (!waterfallImage) {
+                initWaterfallImage();
+            }
+            
+            // Décalage de l'image du waterfall
+            waterfallCtx.drawImage(
+                elements.waterfall,
+                0, 1,  // Source x, y
+                elements.waterfall.width, elements.waterfall.height - 1,  // Source width, height
+                0, 0,  // Destination x, y
+                elements.waterfall.width, elements.waterfall.height - 1   // Destination width, height
+            );
+            
+            // Dessin de la nouvelle ligne de données
+            const lineData = waterfallCtx.createImageData(elements.waterfall.width, 1);
+            
+            // Remplissage de la ligne avec les nouvelles données
+            for (let i = 0; i < Math.min(bytes.length, elements.waterfall.width); i++) {
+                const value = bytes[i];
+                const color = colorizeSpectrum(value);
+                
+                const pixelIndex = i * 4;
+                lineData.data[pixelIndex] = color.r;     // R
+                lineData.data[pixelIndex + 1] = color.g; // G
+                lineData.data[pixelIndex + 2] = color.b; // B
+                lineData.data[pixelIndex + 3] = 255;     // A
+            }
+            
+            // Ajout de la nouvelle ligne en bas du waterfall
+            waterfallCtx.putImageData(lineData, 0, elements.waterfall.height - 1);
+        }
+        
+        // Fonction pour gérer le changement de fréquence et de mode
+        function sendTuneCommand() {
+            if (!isConnected || !selectedReceiver) {
+                return;
+            }
+            
+            // Récupération des valeurs des contrôles
+            const freq = parseInt(elements.frequencyInput.value);
+            const mode = elements.modeSelect.value;
+            
+            // Vérification des valeurs
+            if (isNaN(freq) || freq < 0 || freq > 30000) {
+                alert('Fréquence invalide');
+                return;
+            }
+            
+            console.log(`Réglage: ${freq} kHz, mode ${mode}`);
+            
+            // Envoi de la commande au serveur
+            socket.emit('tune', {
+                id: selectedReceiver,
+                freq: freq,
+                mode: mode
+            });
+            
+            // Mise à jour des variables locales
+            currentFrequency = freq;
+            currentMode = mode;
+        }
+        
+        // Gestion du thème sombre/clair
+        function initTheme() {
+            // Vérification du thème mémorisé
+            const darkMode = localStorage.getItem('darkMode') === 'true';
+            
+            // Application du thème
+            elements.themeToggle.checked = darkMode;
+            document.body.classList.toggle('dark-mode', darkMode);
+        }
+        
+        // Fonction de reconnexion manuelle
+        function reconnect() {
+            if (socket) {
+                socket.close();
+            }
+            reconnectAttempts = 0;
+            elements.connectionError.style.display = 'none';
+            initSocket();
+        }
+        
+        // Initialisation de l'application
+        function init() {
+            // Initialisation du thème
+            initTheme();
+            
+            // Initialisation de la connexion WebSocket
+            initSocket();
+            
+            // Écouteurs d'événements
+            elements.tuneBtn.addEventListener('click', sendTuneCommand);
+            
+            elements.themeToggle.addEventListener('change', () => {
+                document.body.classList.toggle('dark-mode', elements.themeToggle.checked);
+                localStorage.setItem('darkMode', elements.themeToggle.checked);
+            });
+            
+            elements.reconnectBtn.addEventListener('click', reconnect);
+            
+            // Adaptation du canvas à la taille de la fenêtre
+            window.addEventListener('resize', () => {
+                // Redimensionnement différé pour éviter trop d'appels
+                if (window.resizeTimeout) {
+                    clearTimeout(window.resizeTimeout);
+                }
+                window.resizeTimeout = setTimeout(() => {
+                    // Mettre à jour la taille du waterfall et réinitialiser l'image
+                    elements.waterfall.width = elements.waterfall.clientWidth;
+                    elements.waterfall.height = elements.waterfall.clientHeight;
+                    waterfallImage = null; // Force la réinitialisation
+                }, 250);
+            });
+            
+            // Déclencher un redimensionnement initial
+            const resizeEvent = new Event('resize');
+            window.dispatchEvent(resizeEvent);
+        }
+        
+        // Lancement de l'initialisation une fois la page chargée
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

@@ -1,20 +1,22 @@
-# Connexion SDR
+# SDR Web Viewer - Production Dependencies
+
+# Connection SDR
 websocket-client==1.5.0
 
-# Traitement du signal
+# Signal Processing
 numpy==1.26.0
 scipy==1.13.0
 
-# Backend Web
-flask==2.3.2
-flask-socketio==5.3.4
-gevent==23.9.1
+# Web Backend
+flask==2.2.3
+werkzeug==2.2.3
+flask-socketio==5.3.2
+gevent==23.9.0.post1
 gevent-websocket==0.10.1
+eventlet==0.30.2
+python-engineio==4.4.1
+python-socketio==5.8.0
 
-# Utilitaires
-pyyaml==6.0
-python-dotenv==1.0.0
-
-# Tests
-pytest==7.3.1
-pytest-cov==4.1.0 
+# Utilities
+pyyaml==6.0.1
+python-dotenv==1.0.0 

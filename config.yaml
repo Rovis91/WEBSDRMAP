@@ -1,0 +1,61 @@
+receivers:
+- rx_url: http://twente.kiwisdr.com:8073/
+  name: KiwiSDR Twente
+  lat: 52.2387
+  lon: 6.8518
+  users: 20
+  max_users: 50
+  type: kiwisdr
+- rx_url: http://tokyo.kiwisdr.com:8073/
+  name: KiwiSDR Tokyo
+  lat: 35.6762
+  lon: 139.6503
+  users: 15
+  max_users: 40
+  type: kiwisdr
+- rx_url: http://sydney.kiwisdr.com:8073/
+  name: KiwiSDR Sydney
+  lat: -33.8688
+  lon: 151.2093
+  users: 10
+  max_users: 30
+  type: kiwisdr
+- rx_url: http://london.kiwisdr.com:8073/
+  name: KiwiSDR London
+  lat: 51.5074
+  lon: -0.1278
+  users: 12
+  max_users: 35
+  type: kiwisdr
+- rx_url: http://newyork.kiwisdr.com:8073/
+  name: KiwiSDR New York
+  lat: 40.7128
+  lon: -74.006
+  users: 18
+  max_users: 45
+  type: kiwisdr
+- rx_url: http://websdr.ewi.utwente.nl:8901/
+  name: Twente WebSDR
+  lat: 52.2387
+  lon: 6.8518
+  type: websdr
+- rx_url: http://websdr.tue.nl:8901/
+  name: University of Eindhoven WebSDR
+  lat: 40.4237
+  lon: -86.9212
+  type: websdr
+- rx_url: http://websdr.he.swiss:8901/
+  name: Swiss WebSDR
+  lat: 0.0
+  lon: 0.0
+  type: websdr
+- rx_url: http://websdr.norway.com:8901/
+  name: Norway WebSDR
+  lat: 60.472
+  lon: 8.4689
+  type: websdr
+- rx_url: http://websdr.london.uk:8901/
+  name: UK WebSDR London
+  lat: 55.3781
+  lon: -3.436
+  type: websdr
